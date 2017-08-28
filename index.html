@@ -45,89 +45,37 @@ active: home
 {% else %}
       <div class="row">
 
-        <!-- Lecture -->
+{% for column in site.data.course.schedule_columns %}
+        <!-- {{ column.title }} -->
         <div class="col-sm-4">
           <div class="well well-sm">
-            <h4>Lecture</h4>
+            <h4>{{ column.title }}</h4>
             <ul>
-{% for lecture in day.lecture %}
-{% if lecture.link %}
-              <li><a href="{{ lecture.link | prepend: site.baseurl }}">{{ lecture.text }}</a></li>
-{% elsif lecture.outbound %}
-              <li><a href="{{ lecture.outbound }}">{{ lecture.text }}</a></li>
-{% elsif lecture.text %}
-              <li>{{ lecture.text }}</li>
-{% else %}
-{% if lecture == "TBA" %}
+  {% for item in day[column.name] %}
+    {% if item.link %}
+              <li><a href="{{ item.link | prepend: site.baseurl }}">{{ item.text }}</a></li>
+    {% elsif item.outbound %}
+              <li><a href="{{ item.outbound }}">{{ item.text }}</a></li>
+    {% elsif item.text %}
+              <li>{{ item.text }}</li>
+    {% else %}
+      {% if item == "TBA" %}
               <li><span class="text-warning">TBA</span></li>
-{% elsif lecture == "None" %}
+      {% elsif item == "None" %}
               <li><span class="text-info">None</span></li>
-{% else %}
-              <li>{{ lecture }}</li>
-{% endif %}
-{% endif %}
-{% endfor %}
+      {% else %}
+              <li>{{ item }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
             </ul>
           </div>
         </div>
-
-        <!-- Lab -->
-        <div class="col-sm-4">
-          <div class="well well-sm">
-            <h4>Lab</h4>
-            <ul>
-{% for lab in day.lab %}
-{% if lab.link %}
-              <li><a href="{{ lab.link | prepend: site.baseurl }}">{{ lab.text }}</a>{% if lab.due %} due {{ lab.due }}{% endif %}</li>
-{% elsif lab.outbound %}
-              <li><a href="{{ lab.outbound }}">{{ lab.text }}</a> due {{ lab.due }}</li>
-{% else %}
-{% if lab.text == "TBA" %}
-              <li><span class="text-warning">TBA</span></li>
-{% elsif lab.text == "None" %}
-              <li><span class="text-info">None</span></li>
-{% else %}
-              <li>{{ lab.text }}</li>
-{% endif %}
-{% endif %}
 {% endfor %}
-            </ul>
-          </div>
-        </div>
-
-        <!-- Assignments -->
-        <div class="col-sm-4">
-          <div class="well well-sm">
-            <h4>Assignments</h4>
-            <ul>
-{% for assignment in day.assignment %}
-{% if assignment.link %}
-              <li><a href="{{ assignment.link | prepend: site.baseurl }}">{{ assignment.text }}</a> due {{ assignment.due }}</li>
-{% elsif assignment.outbound %}
-              <li><a href="{{ assignment.outbound }}">{{ assignment.text }}</a> due {{ assignment.due }}</li>
-{% elsif assignment.text %}
-{% if assignment.text == "TBA" %}
-              <li><span class="text-warning">TBA</span></li>
-{% elsif assignment.text == "None" %}
-              <li><span class="text-info">None</span></li>
-{% else %}
-              <li>{{ assignment.text }}</li>
-{% endif %}
-{% endif %}
-{% endfor %}
-            </ul>
-          </div>
-        </div>
 
       </div>
 {% endif %}
-      <div class="row">
 
-        <!-- Notes -->
-        <div class="col-xs-12">
-        </div>
-
-      </div>
     </div>
   </div>
 
