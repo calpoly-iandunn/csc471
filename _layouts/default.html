@@ -9,7 +9,7 @@
     <title>CSC {{ site.data.course.number }} {% if page.title %} | {{ page.title }} {% endif %}</title>
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/jumbotron.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/syntax.css" | prepend: site.baseurl }}" rel="stylesheet">
 
