@@ -41,3 +41,10 @@ schedule_columns:
   - name: assignment
     title: Assigments
     class: "col-sm-4"
+
+meetings:
+  lecture:
+    when: "4:10pm - 5:00pm"
+  lab:
+    when: "5:10pm - 6:00pm"
+    in: 14-255

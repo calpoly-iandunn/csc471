@@ -11,7 +11,25 @@ active: home
 <div class="jumbotron">
   <div class="container">
 
-{% include jumbotron.html %}
+    <h1>CSC {{ site.data.course.number }}: {{ site.data.course.title }}</h1>
+
+    <p>
+      This is the course webpage for <strong>CSC {{ site.data.course.number }}: {{ site.data.course.title }}</strong> taught by Ian Dunn.
+    </p>
+
+    <p>
+      We meet from
+        <span class="text-success">{{ site.data.course.meetings.lecture.when }}</span>
+{% if site.data.course.meetings.lecture.in %}
+        in <span class="text-info">{{ site.data.course.meetings.lecture.in }}</span>.
+{% endif %}
+
+        and from
+        <span class="text-success">{{ site.data.course.meetings.lab.when }}</span>
+{% if site.data.course.meetings.lab.in %}
+        in <span class="text-info">{{ site.data.course.meetings.lab.in }}</span>.
+{% endif %}
+    </p>
 
   </div>
 </div>
