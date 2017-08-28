@@ -1,3 +1,30 @@
 
 number: 471
 title: "Introduction to Computer Graphics"
+
+tabs:
+  - name: home
+    title: Home
+    link: /index.html
+
+  - name: references
+    title: References
+    link: /references
+
+  - name: lectures
+    title: Lectures
+    link: /lectures
+
+  - name: programs
+    title: Programs
+    link: /programs
+
+  - name: syllabus
+    title: Syllabus
+    link: /syllabus.html
+
+links:
+  - title: PolyLearn
+    link: "#"
+  - title: GitHub
+    link: https://classroom.github.com/classrooms/31339494-csc-471-introduction-to-computer-graphics-fall-2017
