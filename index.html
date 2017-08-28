@@ -3,10 +3,25 @@ layout: default
 active: home
 ---
 
+
+<!-- ///////// -->
+<!-- Jumbotron -->
+<!-- ///////// -->
+
+<div class="jumbotron">
+  <div class="container">
+
 {% include jumbotron.html %}
+
+  </div>
+</div>
 
 <div class="container" id="content">
 
+
+<!-- /////////// -->
+<!-- Quick Links -->
+<!-- /////////// -->
 
 <div class="panel panel-info">
   <div class="panel-heading">
@@ -22,7 +37,28 @@ active: home
   </div>
 </div>
 
+
+<!-- /////////// -->
+<!-- Course Info -->
+<!-- /////////// -->
+
+<a name="course_info"></a>
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Course Info</h3>
+  </div>
+  <div class="panel-body">
+
 {% include course_info.html %}
+
+  </div>
+</div>
+
+
+
+<!-- //////// -->
+<!-- Schedule -->
+<!-- //////// -->
 
 {% for week in site.data.weeks %}
 
