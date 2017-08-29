@@ -276,12 +276,7 @@
       - text:
 
   - name: Friday 11/17
-    lecture:
-      - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+    override: Holiday - Veterans Day
 
 ###############################################################################
 
