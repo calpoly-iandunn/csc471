@@ -1,6 +1,7 @@
 ---
 layout: page
 active: syllabus
+title: Syllabus
 ---
 
 
