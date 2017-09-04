@@ -9,7 +9,8 @@
       - text: Introduction
       - text: The Graphics Pipeline
     lab:
-      - text:
+      - text: Lab 1
+        link: /labs/lab01
     assignment:
       - text:
 
@@ -23,7 +24,8 @@
     lecture:
       - text: Rasterizer (Lines and Barycentric)
     lab:
-      - text:
+      - text: Lab 2
+        link: /labs/lab02
     assignment:
       - text:
 
