@@ -15,9 +15,9 @@ tabs:
     title: Lectures
     link: /lectures
 
-  - name: programs
-    title: Programs
-    link: /programs
+  - name: assignments
+    title: Assignments
+    link: /assignments
 
   - name: syllabus
     title: Syllabus

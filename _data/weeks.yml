@@ -10,7 +10,7 @@
       - text: The Graphics Pipeline
     lab:
       - text: Lab 1
-        link: /labs/lab01
+        link: /assignments/lab01
     assignment:
       - text:
 
@@ -25,7 +25,7 @@
       - text: Rasterizer (Lines and Barycentric)
     lab:
       - text: Lab 2
-        link: /labs/lab02
+        link: /assignments/lab02
     assignment:
       - text:
 
