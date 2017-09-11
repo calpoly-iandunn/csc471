@@ -83,9 +83,11 @@ active: home
   <a name="week_{{ week.number }}"></a>
   <h2 class="week-label">{{ week.name }}</h2>
 
+{% capture week_class %}{% cycle 'panel-primary', 'panel-info' %}{% endcapture %}
+
 {% for day in week.days %}
 
-  <div class="panel panel-primary">
+  <div class="panel {{ week_class }}">
     <div class="panel-heading">
       <h3 class="panel-title">{{ day.name }}</h3>
     </div>
