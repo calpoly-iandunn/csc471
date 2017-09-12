@@ -12,3 +12,6 @@ title: "Assignments"
 - [Lab 2 - Software Rasterizer: Single Triangle](lab02)
 
 
+## Programs
+
+- [Program 1 - Software Rasterization of Triangle Meshes](program01)
