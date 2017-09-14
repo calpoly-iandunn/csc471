@@ -1,6 +1,6 @@
 ---
 layout: page
-active: labs
+active: assignments
 title: "Lab 2"
 ---
 
