@@ -14,7 +14,7 @@ title: Syllabus
 * **Schedule:**
   * Lecture: MWF 4:10pm - 5:00pm (14-255)
   * Lab: MWF 5:10pm - 6:00pm (14-255)
-
+* **Website:** [https://iondune.github.io/csc471/](https://iondune.github.io/csc471/)
 
 ## Overview
 
