@@ -6,23 +6,11 @@ title: "Lab 1"
 
 # Lab 1 - Software Rasterizer: Bounding Box
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment are not likely to change, but build instructions and base code might be changing soon!
-  </p>
-</div>
-
-
 You must work individually.
 
 Please download the code for the lab and go over the code.
 
-- On the web: [http://users.csc.calpoly.edu/~zwood/teaching/csc471/2016F/Labs/L01/L01.zip](http://users.csc.calpoly.edu/~zwood/teaching/csc471/2016F/Labs/L01/L01.zip)
-- On the server: `cp ~zwood/www/teaching/csc471/2016F/Labs/L01/L01.zip .`
-
+[The base code for this lab can be found on GitHub here](https://github.com/calpoly-csc471/lab01)
 
 ## Overview and Context
 
