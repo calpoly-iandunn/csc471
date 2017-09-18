@@ -21,6 +21,8 @@ title: "Progam 1"
 
 **Due: Saturday, September 23rd 11:55pm**
 
+<a class="btn btn-info" href="https://github.com/calpoly-csc471/program01">The base code for this program can be found on GitHub here</a>
+
 ## Goal:
 
 Create a program that reads in and renders an indexed face set meshes (of type .obj) to an image via software rasterization.
