@@ -6,11 +6,11 @@ title: "Lab 1"
 
 # Lab 1 - Software Rasterizer: Bounding Box
 
-You must work individually.
+**You must work individually.**
 
 Please download the code for the lab and go over the code.
 
-[The base code for this lab can be found on GitHub here](https://github.com/calpoly-csc471/lab01)
+<a class="btn btn-info" href="https://github.com/calpoly-csc471/lab01">The base code for this lab can be found on GitHub here</a>
 
 ## Overview and Context
 
@@ -75,6 +75,7 @@ For today only, we will assume the triangle's vertices are in "window coordinate
 In other words, the data values are integer values that range from 0 to the value of width-1 of the window/image (or 0 to the height-1 value of the window/image).
 You may choose to have the vertices be 2D (although for the Assignment 1, they will need to be 3D).
 You will need to design a data structure to represent the triangle and its vertices.
+
 Draw the three vertices into the image, using three calls to image->setPixel().
 
 The bounding box of the triangle is the box with the extents that will exactly bound that triangle.

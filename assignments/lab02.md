@@ -6,7 +6,7 @@ title: "Lab 2"
 
 # Lab 2 - Software Rasterizer: Single Triangle
 
-You must work individually.
+**You must work individually.**
 
 
 ## Overview and Context
