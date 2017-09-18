@@ -6,21 +6,10 @@ title: "Lab 2"
 
 # Lab 2 - Software Rasterizer: Single Triangle
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment are not likely to change, but build instructions and base code might be changing soon!
-  </p>
-</div>
-
-
 You must work individually.
 
 
 ## Overview and Context
-
 
 For your first assignment, you will be writing a program to render (draw) an indexed face set (aka polygonal mesh of triangles) as an image via software rasterization.
 We are continuing to build some basic tools for the assignment.
@@ -36,39 +25,6 @@ Your program must:
 - Compute the barycentric coordinates for every pixel in the bounding box.
 - For any pixel that falls in the triangle, color that pixel with the interpolated color using the barycentric coordinates to weight the vertex colors.
 - Write out those pixels as a PNG image.
-
-
-## Step 0
-
-Copy over CMakeLists.txt and the src folder from Lab01.
-Change the name of the project in the CMake file.
-Build and run the executable as before. E.g., with command line,
-
-```
-> mkdir build
-> cd build
-> cmake ..
-> make -j4
-> ./Lab02
-```
-
-With Xcode:
-
-```
-> mkdir build
-> cd build
-> cmake -G Xcode ..
-> # Open Lab02.xcodeproj with Xcode
-```
-
-With Visual Studio:
-
-```
-> mkdir build
-> cd build
-> cmake ..
-> # Open Lab02.sln with Visual Studio
-```
 
 
 ## Step 1
@@ -98,7 +54,7 @@ The command line arguments should be:
 
 For example:
 
-**Usage:** `L02 filename width height x0 y0 r0 g0 b0 x1 y1 r1 g1 b1 x2 y2 r2 g2 b2`
+**Usage:** `.\Lab02 filename width height x0 y0 r0 g0 b0 x1 y1 r1 g1 b1 x2 y2 r2 g2 b2`
 
 
 ## Step 2
