@@ -11,8 +11,9 @@
     lab:
       - text: Lab 1
         link: /assignments/lab01
+        due: Wednesday 9/20
     assignment:
-      - text:
+      - None
 
 ###############################################################################
 
@@ -27,24 +28,27 @@
     lab:
       - text: Lab 2
         link: /assignments/lab02
+        due: Monday 9/25
     assignment:
-      - text:
+      - text: Program 1
+        link: /assignment/program01
+        due: Thursday 9/28
 
   - name: Wednesday 9/20
     lecture:
       - text: Meshes
     lab:
-      - text:
+      - None
     assignment:
-      - text:
+      - None
 
   - name: Friday 9/22
     lecture:
       - text: 2D Coordinates and Coordinate Transforms
     lab:
-      - text:
+      - None
     assignment:
-      - text:
+      - None
 
 ###############################################################################
 
@@ -56,7 +60,7 @@
     lecture:
       - text: OpenGL Pipeline
     lab:
-      - text:
+      - text: Lab 3
     assignment:
       - text:
 

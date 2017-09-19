@@ -109,11 +109,11 @@ active: home
             <ul>
   {% for item in day[column.name] %}
     {% if item.link %}
-              <li><a href="{{ item.link | prepend: site.baseurl }}">{{ item.text }}</a></li>
+              <li><a href="{{ item.link | prepend: site.baseurl }}">{{ item.text }}</a>{% if item.due %} due {{ item.due }}{% endif %}</li>
     {% elsif item.outbound %}
-              <li><a href="{{ item.outbound }}">{{ item.text }}</a></li>
+              <li><a href="{{ item.outbound }}">{{ item.text }}</a>{% if item.due %} due {{ item.due }}{% endif %}</li>
     {% elsif item.text %}
-              <li>{{ item.text }}</li>
+              <li>{{ item.text }}{% if item.due %} due {{ item.due }}{% endif %}</li>
     {% else %}
       {% if item == "TBA" %}
               <li><span class="text-warning">TBA</span></li>
