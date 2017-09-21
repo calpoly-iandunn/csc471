@@ -2,6 +2,7 @@
 layout: page
 active: lectures
 title: "Lecture 3: Barycentric Coordinates"
+p5: true
 ---
 
 # {{ page.title }}
@@ -77,3 +78,10 @@ Computing the determinants is left as exercise for the reader :-)
 Finally, we can compute $$ \alpha $$ from $$ \beta $$ and $$ \gamma $$:
 
 $$ \alpha = 1 - \beta - \gamma $$
+
+
+## Area Example
+
+<div id="exampleDisplay">
+  <iframe id="exampleFrame" src="03-example-barycentric-area.html" width="800px" height="800px"></iframe>
+</div>

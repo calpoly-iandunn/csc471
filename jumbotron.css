@@ -46,3 +46,8 @@ img {
 .half {
   max-width: 50%;
 }
+
+iframe
+{
+  border: none;
+}
