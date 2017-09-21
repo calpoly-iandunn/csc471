@@ -1,10 +1,8 @@
 ---
-layout: page
-active: assignments
-title: "Lab 2"
+layout: assignment
+assignment: "lab02"
+title: Lab 2
 ---
-
-# Lab 2 - Software Rasterizer: Single Triangle
 
 **You must work individually.**
 

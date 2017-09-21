@@ -8,10 +8,24 @@ title: "Assignments"
 
 ## Labs
 
-- [Lab 1 - Software Rasterizer: Bounding Box](lab01)
-- [Lab 2 - Software Rasterizer: Single Triangle](lab02)
+{% for pair in site.data.assignments %}
+  {% assign name = pair[0] %}
+  {% assign assignment = pair[1] %}
+
+  {% if assignment.type == 'lab' %}
+- [{{ assignment.title }} - {{ assignment.subtitle }}]({{ name }}) due {{ assignment.due }}
+  {% endif %}
+{% endfor %}
 
 
 ## Programs
 
-- [Program 1 - Software Rasterization of Triangle Meshes](program01)
+{% for pair in site.data.assignments %}
+  {% assign name = pair[0] %}
+  {% assign assignment = pair[1] %}
+
+  {% if assignment.type == 'program' %}
+- [{{ assignment.title }} - {{ assignment.subtitle }}]({{ name }}) due {{ assignment.due }}
+  {% endif %}
+{% endfor %}
+

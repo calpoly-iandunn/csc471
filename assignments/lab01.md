@@ -1,16 +1,11 @@
 ---
-layout: page
-active: assignments
-title: "Lab 1"
+layout: assignment
+assignment: "lab01"
+title: Lab 1
 ---
-
-# Lab 1 - Software Rasterizer: Bounding Box
 
 **You must work individually.**
 
-Please download the code for the lab and go over the code.
-
-<a class="btn btn-info" href="https://github.com/calpoly-csc471/lab01">The base code for this lab can be found on GitHub here</a>
 
 ## Overview and Context
 

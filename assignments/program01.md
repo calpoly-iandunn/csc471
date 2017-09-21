@@ -1,27 +1,11 @@
 ---
-layout: page
-active: assignments
-title: "Progam 1"
+layout: assignment
+assignment: "program01"
+title: Program 1
 ---
-
-# Program 1 - Software Rasterization of Triangle Meshes
-
-
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment are not likely to change, but build instructions and base code might be changing soon!
-  </p>
-</div>
-
 
 *This is an **individual** project.*
 
-**Due: Saturday, September 23rd 11:55pm**
-
-<a class="btn btn-info" href="https://github.com/calpoly-csc471/program01">The base code for this program can be found on GitHub here</a>
 
 ## Goal:
 

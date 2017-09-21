@@ -32,15 +32,7 @@ links:
 schedule_columns:
   - name: lecture
     title: Lecture
-    class: "col-sm-4"
-
-  - name: lab
-    title: Lab
-    class: "col-sm-4"
-
-  - name: assignment
-    title: Assigments
-    class: "col-sm-4"
+    class: "col-sm-6"
 
 meetings:
   lecture:
