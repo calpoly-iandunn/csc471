@@ -85,3 +85,5 @@ $$ \alpha = 1 - \beta - \gamma $$
 <div id="exampleDisplay">
   <iframe id="exampleFrame" src="03-example-barycentric-area.html" width="800px" height="800px"></iframe>
 </div>
+
+Thank you to Dr. Zoe Wood for the above Processing example!
