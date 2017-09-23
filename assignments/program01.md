@@ -70,20 +70,45 @@ Write out the bounding box, rather than the triangles, to the image.
 If you  do this with the provided sphere, teapot, and bunny, you should see blocky images like below.
 Make sure the object looks reasonable in terms of scale and shape.
 
-<div class="alert alert-dismissible alert-warning">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    Images coming soon.
-  </p>
+<div class="row">
+  <div class="col-sm-4">
+    <img src="program1_1.png" alt="program1_1.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_2.png" alt="program1_2.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_3.png" alt="program1_3.png" class="img-thumbnail" />
+  </div>
 </div>
 
 Once the bounding boxes are being displayed correctly, you can add the barycentric test to write out the triangles as in Lab02.
 You should not see any gap between the triangles.
 
+<div class="row">
+  <div class="col-sm-4">
+    <img src="program1_4.png" alt="program1_4.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_5.png" alt="program1_5.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_6.png" alt="program1_6.png" class="img-thumbnail" />
+  </div>
+</div>
+
 Make sure you test nonuniform window sizes.
 As show below, the aspect ratio of the object should be preserved no matter what the image size is,
 and the object should be reasonably scaled.
+
+<div class="row">
+  <div class="col-sm-8">
+    <img src="program1_7.png" alt="program1_7.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_8.png" alt="program1_8.png" class="img-thumbnail" />
+  </div>
+</div>
 
 
 ### Task 4:
@@ -101,6 +126,14 @@ To do this, you have to map the z-value to the range 0 to 255.
 If your z-buffer test is not working, you'll see some strange results,
 since some pixels that are farther from the camera may be drawn on top of closer pixels.
 
+<div class="row">
+  <div class="col-sm-4">
+    <img src="program1_9.png" alt="program1_9.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_10.png" alt="program1_10.png" class="img-thumbnail" />
+  </div>
+</div>
 
 ### Task 5
 
@@ -111,6 +144,15 @@ For example, in the right figure below, I am interpolating between yellow and cy
 Make sure to specify these two colors in your README.
 The color should vary smoothly from top to bottom.
 
+
+<div class="row">
+  <div class="col-sm-4">
+    <img src="program1_11.png" alt="program1_11.png" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_12.png" alt="program1_12.png" class="img-thumbnail" />
+  </div>
+</div>
 
 ### Important Note
 
