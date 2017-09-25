@@ -14,3 +14,4 @@ title: "Lectures"
 - [5 - Vectors](05-vectors)
 - [6 - Matrices](06-matrices)
 - [7 - Matrix Operations](07-matrix-operations)
+- [8 - Coordinate Transformations](08-transformations)

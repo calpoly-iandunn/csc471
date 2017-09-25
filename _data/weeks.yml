@@ -69,6 +69,7 @@
       - text: Matrix Operations
         link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
+        link: /lectures/08-transformations
       - text: OpenGL Pipeline
     lab:
       - text: Lab 3
