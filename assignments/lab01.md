@@ -33,9 +33,9 @@ For today, we will just be playing with the provided image code to build up func
 
 ## Step 1
 
-[If you're using the Windows lab machines (e.g. in 14-255), follow these build and run instructions.]({{ site.baseurl }}/references/cpp-build-vs)
+[If you're using the Windows lab machines (e.g. in 14-255), or your own personal Windows machine with Visual Studio 2017, follow these build and run instructions.]({{ site.baseurl }}/references/cpp-build-vs)
 
-[If you're using the Linux lab machines (e.g. in the CSL), follow these build and run instructions.]({{ site.baseurl }}/references/cpp-build-cmake)
+[If you're using the Linux lab machines (e.g. in the CSL), or any other platform with CMake, follow these build and run instructions.]({{ site.baseurl }}/references/cpp-build-cmake)
 
 You should see some output on the console.
 Look at `main.cpp` to see what the command line arguments mean.
