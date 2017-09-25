@@ -66,6 +66,8 @@
 
   - name: Monday 9/25
     lecture:
+      - text: Matrix Operations
+        link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
       - text: OpenGL Pipeline
     lab:

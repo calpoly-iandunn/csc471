@@ -62,3 +62,12 @@ $$ B = \begin{bmatrix}1 & x\\y & 4\end{bmatrix} $$
 If $$ A = B $$, then $$ x = 2 $$ and $$ y = 3 $$.
 
 
+### Addition and Subtraction
+
+Addition and subtraction of matrices is defined by addition and subtraction of corresponding elements.
+
+*We can only add and subtract matrices of the same order.*
+
+$$ \begin{bmatrix}2 & 1 & 3\\4 & 1 & -1\end{bmatrix} + \begin{bmatrix}3 & 2 & 0\\0 & 1 & 0\end{bmatrix} $$
+
+$$ = \begin{bmatrix}2 + 3 & 1 + 2 & 3 + 0\\4 + 0 & 1 + 1 & -1 + 0\end{bmatrix} = \begin{bmatrix}5 & 3 & 3\\4 & 2 & -1\end{bmatrix} $$
