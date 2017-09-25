@@ -2,10 +2,9 @@
 layout: page
 active: lectures
 title: "Lecture 3: Barycentric Coordinates"
+auto-title: true
 p5: true
 ---
-
-# {{ page.title }}
 
 ## Basics
 

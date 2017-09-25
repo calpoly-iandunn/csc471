@@ -1,7 +1,7 @@
 ---
 layout: page
 active: lectures
-title: "Lecture 2: Software Rasterizer"
+title: "Lecture 4: Meshes"
 auto-title: true
 ---
 

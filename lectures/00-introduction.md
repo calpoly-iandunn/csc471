@@ -2,9 +2,8 @@
 layout: page
 active: lectures
 title: "Lecture 0: Introduction"
+auto-title: true
 ---
-
-<h1>{{ page.title }}</h1>
 
 **Motivation:** Draw shapes/geometry to 2D screen.
 
