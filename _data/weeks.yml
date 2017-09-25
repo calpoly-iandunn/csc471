@@ -49,7 +49,10 @@
 
   - name: Friday 9/22
     lecture:
-      - text: Vectors and Matrices
+      - text: Vectors
+        link: /lectures/05-vectors
+      - text: Matrices
+        link: /lectures/06-matrices
     lab:
       - None
     assignment:
