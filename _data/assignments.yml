@@ -20,6 +20,14 @@ lab02:
   assigned: Monday 9/18
   due:      Monday 9/25
 
+lab03:
+  title:    Lab 3
+  subtitle: "Intro to OpenGL"
+  type:     lab
+  individual: true
+  assigned: Wednesday 9/27
+  due:      Monday 10/2
+
 ##############
 ## Programs ##
 ##############
