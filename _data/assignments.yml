@@ -41,3 +41,12 @@ program01:
   due:      Thursday 9/28
   github:   https://classroom.github.com/a/RAeEAiIl
   basecode: https://github.com/calpoly-csc471/program01
+
+program02a:
+  title:    Program 2A
+  subtitle: Dancing Sun
+  type:     program
+  individual: true
+  assigned: Wednesday 9/27
+  due:      Wednesday 10/4
+  github:   https://classroom.github.com/a/nWvfuZvX
