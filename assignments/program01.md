@@ -113,27 +113,45 @@ and the object should be reasonably scaled.
 
 ### Task 4:
 
-Create a data structure to support z-buffer tests.
-Your z-buffer should be a separate buffer from your image pixel buffer, and it should be the same size as your pixel buffer.
+The triangles of the objects are in a certain order.
+
+From a certain viewpoint, some triangles might not be visible due to other triangles being in front of them (relative to the camera).
+This is called **occlusion**.
+
+You won't notice any problems with this if your triangles are all the same color (as above).
+
+#### Coloring
 
 Incorporate your lab code to rasterize a triangle with a color defined per vertex.
 Any point within the triangle should be drawn with colors interpolated via the barycentric coordinates.
-Likewise, depth should also be interpolated using the barycentric coordinates and written to the z-buffer.
+Likewise, z (depth) should also be interpolated using the barycentric coordinates and written to the z-buffer.
 
 Use the z value of the vertices as the color.
 (You can choose any color, not just red.)
 To do this, you have to map the z-value to the range 0 to 255.
-If your z-buffer test is not working, you'll see some strange results,
-since some pixels that are farther from the camera may be drawn on top of closer pixels.
 
-<div class="row">
-  <div class="col-sm-4">
-    <img src="program1_9.png" alt="program1_9.png" class="img-thumbnail" />
-  </div>
-  <div class="col-sm-4">
-    <img src="program1_10.png" alt="program1_10.png" class="img-thumbnail" />
-  </div>
-</div>
+You may immediately notice weird results in your render.
+
+<img src="program1_9.png" alt="program1_9.png" class="img-thumbnail">
+
+This is because some triangles should be **occluded** by others, but whichever triangle is rendered last is the one that actually shows up in front.
+
+We can resolve this using a z-buffer.
+
+#### Z-Buffer
+
+Create a data structure to support z-buffer tests.
+Your z-buffer should be a separate buffer from your image pixel buffer, and it should be the same size as your pixel buffer.
+
+For testing if a pixel is in the foreground, you need to compare the z-buffer value on the position of the new pixel:
+
+    If there is none, write the new pixel color and z value.
+    If its less (farther away) than the new z value, write the new pixel color and z value.
+    If its more (closer), do not overwrite the pixel or z value.
+
+
+<img src="program1_10.png" alt="program1_10.png" class="img-thumbnail" />
+
 
 ### Task 5
 
