@@ -88,7 +88,7 @@ moving in or out from the center of the circle for each vertex
 You will need to think about this carefully and add enough data and
 computation to the vertex shader to update where the points draw.
 Note that the data in the buffer will not actually change, you will just
-modify the position sent to gl_Position using a vector to represent
+modify the position sent to `gl_Position` using a vector to represent
 the direction of travel and a coefficient to represent how far to travel
 along that vector in order to achieve the desired animation.
 
@@ -117,12 +117,12 @@ along that vector in order to achieve the desired animation.
 ## Task 3:
 
 Finally modify the fragment shader in order to make the rendering of your
-animation more interesting (read about gl_FragCoord). You must do several
+animation more interesting (read about `gl_FragCoord`). You must do several
 things:
 - Decide on a radius beyond which the rays will draw as a different color
   then the center
 - Draw the center and the fragments along the ray as a gradient
-- Create a large “background” polygon that when rasterized has each of its
+- Create a large "background" polygon that when rasterized has each of its
 fragments colored based on where that fragment is relative to the center
 
 ![program2a_7](program2a_7.png)
@@ -133,8 +133,9 @@ fragments colored based on where that fragment is relative to the center
 ### Some general comments:
 
 - Consider choosing colors that look good together.
-  [Use Abode Kuler to choose colors](https://color.adobe.com/create/color-wheel/)
-- You will likely need to use a uniform variable to represent time, which
+  [Use Abode Kuler to choose colors](https://color.adobe.com/create/color-wheel/).
+  [Or Paletton](http://paletton.com/).
+- You will likely need to use a **uniform variable** to represent time, which
   changes for every frame.
 - You will need to set up two different shaders (each with a pair, vertex and
   fragment shader) – one for the sun and one for the large quad in the
@@ -144,7 +145,7 @@ fragments colored based on where that fragment is relative to the center
   math we learn. Enjoy the puzzle.
 - For those with retina displays – you will need to make sure your program
   works on the lab machines. This means you will likely also need to specify
-  uniforms for width and height. As gl_FragCoord will be relative to your
+  uniforms for width and height. As `gl_FragCoord` will be relative to your
   retina display (and thus too large/out of bounds on the lab machines).
 - For debugging your triangulation, you may want to use
   `glDrawElements(GL_LINE_STRIP, ...`
