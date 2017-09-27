@@ -70,7 +70,6 @@
         link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
         link: /lectures/08-transformations
-      - text: OpenGL Pipeline
     lab:
       - text: Lab 3
     assignment:
@@ -78,7 +77,8 @@
 
   - name: Wednesday 9/27
     lecture:
-      - text: GLSL Shaders
+      - text: OpenGL Introduction
+        link: /lectures/09-opengl-intro
     lab:
       - text:
     assignment:
