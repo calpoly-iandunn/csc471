@@ -77,6 +77,8 @@
 
   - name: Wednesday 9/27
     lecture:
+      - text: OpenGL Slides
+        outbound: https://drive.google.com/open?id=1lkJPaZ1r3P7icS2PTofbAwUzKopQNkjBSPem1e-Qdn8
       - text: OpenGL Introduction
         link: /lectures/09-opengl-intro
     lab:
