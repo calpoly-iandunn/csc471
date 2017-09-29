@@ -88,7 +88,8 @@
 
   - name: Friday 9/29
     lecture:
-      - text: Points, Vectors, & Planes
+      - text: Parametric Equations
+      - text: OpenGL Usage 1
     lab:
       - text:
     assignment:
