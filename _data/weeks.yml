@@ -89,7 +89,7 @@
   - name: Friday 9/29
     lecture:
       - text: Parametric Equations
-      - text: OpenGL Usage 1
+      - text: OpenGL Pipeline I
     lab:
       - text:
     assignment:
