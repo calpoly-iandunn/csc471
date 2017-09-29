@@ -10,7 +10,7 @@ auto-title: true
 - [C++/CMake Build Instructions](cpp-build-cmake)
 - [C++/Visual Studio Build Instructions](cpp-build-vs)
 
-
+- [Using Git and GitHub Classroom](git)
 
 ## OpenGL Examples
 
