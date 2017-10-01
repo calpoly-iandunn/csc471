@@ -4,6 +4,15 @@ assignment: "program02b"
 title: Program 2B
 ---
 
+<div class="alert alert-dismissible alert-danger">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4>Warning!</h4>
+  <p>
+    This content is not fully ready yet.
+    The details of the assignment may change, but build instructions and base code may not yet be available!
+  </p>
+</div>
+
 Build a creature with transforms!
 
 <div class="row">

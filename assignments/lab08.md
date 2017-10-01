@@ -4,6 +4,15 @@ assignment: "lab08"
 title: Lab 8
 ---
 
+<div class="alert alert-dismissible alert-danger">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4>Warning!</h4>
+  <p>
+    This content is not fully ready yet.
+    The details of the assignment may change, but build instructions and base code may not yet be available!
+  </p>
+</div>
+
 Pitch and Yaw camera control.
 
 Today we will create a very simple scene and enable the user to look all around (180

@@ -41,32 +41,32 @@ lab05:
   subtitle: "Transformation Matrices"
   type:     lab
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
 
 lab06:
   title:    Lab 6
   subtitle: "Hierarchical Modeling"
   type:     lab
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
 
 lab07:
   title:    Lab 7
   subtitle: "Diffuse Lighting"
   type:     lab
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
 
 lab08:
   title:    Lab 8
   subtitle: "Pitch and Yaw Camera"
   type:     lab
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
 
 
 
@@ -98,8 +98,8 @@ program02b:
   subtitle: Snow Globe
   type:     program
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
   # github:   https://classroom.github.com/a/nWvfuZvX
 
 program03:
@@ -107,8 +107,8 @@ program03:
   subtitle: Lighting
   type:     program
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
   # github:   https://classroom.github.com/a/nWvfuZvX
 
 program04:
@@ -116,6 +116,6 @@ program04:
   subtitle: World
   type:     program
   individual: true
-  assigned: Monday 10/9
-  due:      Monday 10/9
+  assigned: TBA
+  due:      TBA
   # github:   https://classroom.github.com/a/nWvfuZvX

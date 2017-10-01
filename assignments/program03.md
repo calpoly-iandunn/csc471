@@ -4,6 +4,15 @@ assignment: "program03"
 title: Program 3
 ---
 
+<div class="alert alert-dismissible alert-danger">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4>Warning!</h4>
+  <p>
+    This content is not fully ready yet.
+    The details of the assignment may change, but build instructions and base code may not yet be available!
+  </p>
+</div>
+
 The late policy on the syllabus applies. This programming assignment
 should be done individually! You may talk to one another about the program, but you
 may not look at someone’s working code.
