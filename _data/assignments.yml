@@ -44,6 +44,14 @@ lab05:
   assigned: Monday 10/9
   due:      Monday 10/9
 
+lab06:
+  title:    Lab 6
+  subtitle: "Hierarchical Modeling"
+  type:     lab
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+
 
 
 ##############
