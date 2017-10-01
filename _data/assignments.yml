@@ -52,6 +52,14 @@ lab06:
   assigned: Monday 10/9
   due:      Monday 10/9
 
+lab07:
+  title:    Lab 7
+  subtitle: "Diffuse Lighting"
+  type:     lab
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+
 
 
 ##############
