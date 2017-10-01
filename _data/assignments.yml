@@ -60,6 +60,14 @@ lab07:
   assigned: Monday 10/9
   due:      Monday 10/9
 
+lab08:
+  title:    Lab 8
+  subtitle: "Pitch and Yaw Camera"
+  type:     lab
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+
 
 
 ##############
