@@ -93,3 +93,12 @@ program02b:
   assigned: Monday 10/9
   due:      Monday 10/9
   # github:   https://classroom.github.com/a/nWvfuZvX
+
+program03:
+  title:    Program 3
+  subtitle: Lighting
+  type:     program
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+  # github:   https://classroom.github.com/a/nWvfuZvX
