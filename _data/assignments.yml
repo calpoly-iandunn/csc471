@@ -68,3 +68,12 @@ program02a:
   assigned: Wednesday 9/27
   due:      Friday 10/6
   github:   https://classroom.github.com/a/nWvfuZvX
+
+program02b:
+  title:    Program 2B
+  subtitle: Snow Globe
+  type:     program
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+  # github:   https://classroom.github.com/a/nWvfuZvX
