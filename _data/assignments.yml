@@ -110,3 +110,12 @@ program03:
   assigned: Monday 10/9
   due:      Monday 10/9
   # github:   https://classroom.github.com/a/nWvfuZvX
+
+program04:
+  title:    Program 4
+  subtitle: World
+  type:     program
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+  # github:   https://classroom.github.com/a/nWvfuZvX
