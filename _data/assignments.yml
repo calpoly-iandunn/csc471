@@ -36,6 +36,15 @@ lab04:
   assigned: Monday 10/2
   due:      Friday 10/6
 
+lab05:
+  title:    Lab 5
+  subtitle: "Transformation Matrices"
+  type:     lab
+  individual: true
+  assigned: Monday 10/9
+  due:      Monday 10/9
+
+
 
 ##############
 ## Programs ##
