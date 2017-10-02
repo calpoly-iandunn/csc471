@@ -27,6 +27,7 @@ lab03:
   individual: true
   assigned: Wednesday 9/27
   due:      Monday 10/2
+  basecode: https://github.com/calpoly-csc471/lab03
 
 lab04:
   title:    Lab 4
