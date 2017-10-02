@@ -16,3 +16,4 @@ title: "Lectures"
 - [8 - Coordinate Transformations](08-transformations)
 - [9 - OpenGL Introduction](09-opengl-intro)
 - [10 - OpenGL Pipeline 1](10-opengl-pipeline-1)
+- [11 - OpenGL Pipeline 2](11-opengl-pipeline-2)

@@ -103,7 +103,8 @@
 
   - name: Monday 10/2
     lecture:
-      - text: OpenGL Pipeline II
+      - text: OpenGL Pipeline 2
+        link: /lectures/11-opengl-pipeline-2
     lab:
       - text:
     assignment:
