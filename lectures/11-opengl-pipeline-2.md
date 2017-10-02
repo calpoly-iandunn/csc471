@@ -10,7 +10,7 @@ In this lecture we will modify the base code for Lab 3 to draw two objects, with
 [You can find the source code for this lab here.](https://github.com/calpoly-csc471/TwoObjectDemo)
 
 
----
+## 1. Animation
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/4666582a65debda3f7e4ffb9819c20fae86a8d4d)
 
@@ -25,7 +25,8 @@ Even though position is a `vec3`, using this syntax lets us modify the `x` and `
 as if they were contained in a `vec2`.
 
 
----
+
+## 2. Color
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/d4c65fa51004b28b10db07f93e7efa365cd93b7f)
 
@@ -33,7 +34,8 @@ Next, we add a new uniform to specify the color of the triangle.
 This is just another example of how to color something.
 
 
----
+
+## 3. Two Render Calls
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/61ed41c58109533d17d88c53c70b556e07ebb7bd)
 
@@ -52,7 +54,8 @@ When parts of our scene description are shared we can leave them as is.
 This is not only simple from the programming perspective, it also saves run time.
 
 
----
+
+## 4. Two Shaders
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/d7c4f8b887403673efada9afc74be2d9849485ab)
 
@@ -77,7 +80,8 @@ Side note: there's no reason we couldn't just make `radius` a uniform and stick 
 But the whole purpose of this exercise is to use two shaders, so we do it this way!
 
 
----
+
+## 5. Two Separate Objects
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/ce3fc9751dba392f723ced68da688a79baab6f40)
 
@@ -91,7 +95,8 @@ They each have their own shader and VAO + VBO.
 Separate data and separate rendering details - we can make them as different as we want.
 
 
----
+
+## 6. GLSL Fun
 
 [Changes](https://github.com/calpoly-csc471/TwoObjectDemo/commit/a1a0b3862a8421d48da3017f5b9ca13835094200)
 
