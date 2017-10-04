@@ -121,7 +121,8 @@
 
   - name: Friday 10/6
     lecture:
-      - text: Hierarchical Models
+      - text: Hierarchical Transforms
+        link: /lectures/13-hierarchical-modeling
     lab:
       - text:
     assignment:

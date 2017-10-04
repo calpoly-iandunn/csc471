@@ -18,3 +18,4 @@ title: "Lectures"
 - [10 - OpenGL Pipeline 1](10-opengl-pipeline-1)
 - [11 - OpenGL Pipeline 2](11-opengl-pipeline-2)
 - [12 - Geometric Transformations](12-geometric-transforms)
+- [13 - Hierarchical Transformations](13-hierarchical-modeling)
