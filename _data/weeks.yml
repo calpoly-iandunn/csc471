@@ -113,6 +113,7 @@
   - name: Wednesday 10/4
     lecture:
       - text: Geometric Transforms
+        link: /lectures/12-geometric-transforms
     lab:
       - text:
     assignment:

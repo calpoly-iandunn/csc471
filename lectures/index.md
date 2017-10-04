@@ -17,3 +17,4 @@ title: "Lectures"
 - [9 - OpenGL Introduction](09-opengl-intro)
 - [10 - OpenGL Pipeline 1](10-opengl-pipeline-1)
 - [11 - OpenGL Pipeline 2](11-opengl-pipeline-2)
+- [12 - Geometric Transformations](12-geometric-transforms)
