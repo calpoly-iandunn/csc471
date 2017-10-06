@@ -81,8 +81,8 @@ function draw() {
   background(230);
 
   // Set colors
-  fill(204, 101, 192, 127);
   strokeWeight(2);
+  stroke(63, 63, 63);
 
   // frame
   scale(1, -1);
@@ -92,16 +92,24 @@ function draw() {
   line(0, 0, 300, 0);
   line(0, 0, 0, 300);
 
-  stroke(127, 63, 120);
 
   // a rectangle
+  fill(204, 101, 101, 127);
+  stroke(127, 63, 63);
+
   rotate(-pt.x);
   line(-5, -5, 5, 5);
   line(5, -5, -5, 5);
   ellipse(0, 0, 16, 16);
   push();
     rect(0, 0, 200, 100);
+    scale(1, -1);
+    text("upper arm", 15, -20);
   pop();
+
+  // a rectangle
+  fill(101, 204, 101, 127);
+  stroke(63, 127, 63);
 
   translate(200, 0);
   rotate(-pt.y);
@@ -110,7 +118,13 @@ function draw() {
   ellipse(0, 0, 16, 16);
   push();
     rect(0, 0, 200, 80);
+    scale(1, -1);
+    text("lower arm", 15, -20);
   pop();
+
+  // a rectangle
+  fill(101, 101, 204, 127);
+  stroke(63, 63, 127);
 
   translate(200, 0);
   rotate(-pt.z);
@@ -119,6 +133,8 @@ function draw() {
   ellipse(0, 0, 16, 16);
   push();
     rect(0, 0, 150, 60);
+    scale(1, -1);
+    text("hand", 15, -20);
   pop();
 
   resetMatrix();
