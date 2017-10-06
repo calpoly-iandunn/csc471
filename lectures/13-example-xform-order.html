@@ -16,17 +16,13 @@ function setup() {
 
   pt = createVector(-0.13, -0.2, -0.1);
 
-  button = createButton('1');
+  button = createButton('R * T');
   button.position(250, 35);
   button.mousePressed(mode1);
 
-  button = createButton('2');
-  button.position(300, 35);
-  button.mousePressed(mode2);
-
-  button = createButton('3');
+  button = createButton('T * R');
   button.position(350, 35);
-  button.mousePressed(mode3);
+  button.mousePressed(mode2);
 }
 
 function mode1() {
@@ -37,10 +33,6 @@ function mode2() {
   mode = 2;
 }
 
-function mode3() {
-  mode = 3;
-}
-
 function keyPressed() {
   console.log(keyCode);
   console.log('1');
@@ -49,9 +41,6 @@ function keyPressed() {
   }
   else if (keyCode === 50) {
     mode = 2;
-  }
-  else if (keyCode === 51) {
-    mode = 3;
   }
 }
 
@@ -68,11 +57,9 @@ function mouseDragged() {
 
   if (mode == 1) {
     pt.x += offX / 200;
+    pt.y += offY / 200;
   }
   else if (mode == 2) {
-    pt.y += offX / 200;
-  }
-  else if (mode == 3) {
     pt.z += offX / 200;
   }
 }
@@ -95,31 +82,22 @@ function draw() {
   stroke(127, 63, 120);
 
   // a rectangle
-  rotate(-pt.x);
   line(-5, -5, 5, 5);
   line(5, -5, -5, 5);
   ellipse(0, 0, 16, 16);
-  push();
-    rect(0, 0, 200, 100);
-  pop();
 
-  translate(200, 0);
-  rotate(-pt.y);
-  line(-5, -5, 5, 5);
-  line(5, -5, -5, 5);
-  ellipse(0, 0, 16, 16);
-  push();
-    rect(0, 0, 200, 80);
-  pop();
+  if (mode == 1) {
+    rotate(-pt.z);
+    translate(pt.x, pt.y);
+  }
+  else if (mode == 2) {
+    translate(pt.x, pt.y);
+    rotate(-pt.z);
+  }
 
-  translate(200, 0);
-  rotate(-pt.z);
-  line(-5, -5, 5, 5);
-  line(5, -5, -5, 5);
-  ellipse(0, 0, 16, 16);
-  push();
-    rect(0, 0, 150, 60);
-  pop();
+  rect(0, 0, 200, 100);
+
+
 
   resetMatrix();
   noStroke();
