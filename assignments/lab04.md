@@ -21,7 +21,7 @@ Modify the fragment shader so that any fragments having y values greater then ha
 are drawn as blue instead of mixed colors colors.
 
 Use GLSL `gl_FragCoord.x` and `gl_FragCoord.y` to test the position,
-which are in window coordinates, and then set `gl_FragColor`.
+which are in window coordinates, and then set `color`.
 
 Your output should look something like:
 
