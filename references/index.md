@@ -12,9 +12,15 @@ auto-title: true
 
 - [Using Git and GitHub Classroom](git)
 
+
 ## OpenGL Examples
 
 - [Minimal OpenGL Example](minimal-opengl)
+
+
+## Exams
+
+- [Midterm 1 Guide](midterm-1-guide)
 
 
 ## Eternal References
