@@ -114,17 +114,17 @@
 
   - name: Monday 10/16
     lecture:
-      - text: Lighting and Shading I
+      - text: Lighting and Shading 1
 
 
   - name: Wednesday 10/18
     lecture:
-      - text: Lighting and Shading II
+      - text: Lighting and Shading 2
 
 
   - name: Friday 10/20
     lecture:
-      - text: Lighting and Shading III
+      - text: Lighting and Shading 3
 
 
 ###############################################################################
@@ -135,17 +135,17 @@
 
   - name: Monday 10/23
     lecture:
-      - text: Lighting and Shading IV
+      - text: Textures 1
 
 
   - name: Wednesday 10/25
     lecture:
-      - text: Textures
+      - text: Textures 2
 
 
   - name: Friday 10/27
     lecture:
-      - text: Viewing Transforms and Cameras I
+      - text: Framebuffers
 
 
 ###############################################################################
@@ -156,17 +156,17 @@
 
   - name: Monday 10/30
     lecture:
-      - text: Viewing Transforms and Cameras II
+      - text: Viewing Transforms and Cameras 1
 
 
   - name: Wednesday 11/1
     lecture:
-      - text: Geometry and Animation
+      - text: Viewing Transforms and Cameras 2
 
 
   - name: Friday 11/3
     lecture:
-      - text: Clipping, Culling, & Hidden Surface Removal
+      - text: Viewing Transforms and Cameras 3
 
 
 ###############################################################################
@@ -177,17 +177,17 @@
 
   - name: Monday 11/6
     lecture:
-      - text: TBA
+      - text: Final Project Grab Bag
 
 
   - name: Wednesday 11/8
     lecture:
-      - text: TBA
+      - text: Geometry and Animation 1
 
 
   - name: Friday 11/10
     lecture:
-      - text: TBA
+      - text: Geometry and Animation 2
 
 
 ###############################################################################
@@ -198,12 +198,12 @@
 
   - name: Monday 11/13
     lecture:
-      - text: TBA
+      - text: Clipping, Culling, & Hidden Surface Removal
 
 
   - name: Wednesday 11/15
     lecture:
-      - text: TBA
+      - text: Catchup Day
 
 
   - name: Friday 11/17
