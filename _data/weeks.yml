@@ -8,12 +8,6 @@
     lecture:
       - text: Introduction
         outbound: https://docs.google.com/presentation/d/1D_htUiKc0UhsAPWfNC6GqLFaIGWDT9Q0uGryFbODB9s/edit?usp=sharing
-    lab:
-      - text: Lab 1
-        link: /assignments/lab01
-        due: Wednesday 9/20
-    assignment:
-      - None
 
 ###############################################################################
 
@@ -29,23 +23,11 @@
         link: /lectures/02-software-rasterizer
       - text: Meshes
         link: /lectures/04-meshes
-    lab:
-      - text: Lab 2
-        link: /assignments/lab02
-        due: Monday 9/25
-    assignment:
-      - text: Program 1
-        link: /assignment/program01
-        due: Thursday 9/28
 
   - name: Wednesday 9/20
     lecture:
       - text: Barycentric Coordinates
         link: /lectures/03-barycentric-coordinates
-    lab:
-      - None
-    assignment:
-      - None
 
   - name: Friday 9/22
     lecture:
@@ -53,10 +35,6 @@
         link: /lectures/05-vectors
       - text: Matrices
         link: /lectures/06-matrices
-    lab:
-      - None
-    assignment:
-      - None
 
 ###############################################################################
 
@@ -70,10 +48,6 @@
         link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
         link: /lectures/08-transformations
-    lab:
-      - text: Lab 3
-    assignment:
-      - text:
 
   - name: Wednesday 9/27
     lecture:
@@ -81,19 +55,11 @@
         outbound: https://drive.google.com/open?id=1lkJPaZ1r3P7icS2PTofbAwUzKopQNkjBSPem1e-Qdn8
       - text: OpenGL Introduction
         link: /lectures/09-opengl-intro
-    lab:
-      - text:
-    assignment:
-      - text:
 
   - name: Friday 9/29
     lecture:
       - text: OpenGL Pipeline 1
         link: /lectures/10-opengl-pipeline-1
-    lab:
-      - text:
-    assignment:
-      - text:
 
 ###############################################################################
 
@@ -105,28 +71,19 @@
     lecture:
       - text: OpenGL Pipeline 2
         link: /lectures/11-opengl-pipeline-2
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 10/4
     lecture:
       - text: Geometric Transforms
         link: /lectures/12-geometric-transforms
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 10/6
     lecture:
       - text: Hierarchical Transforms
         link: /lectures/13-hierarchical-modeling
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -135,26 +92,19 @@
   days:
 
   - name: Monday 10/9
-    lecture: C++
-    lab:
-      - text:
-    assignment:
-      - text:
+    lecture:
+      - text: C++
+
 
   - name: Wednesday 10/11
     lecture:
-    lab:
       - text: Midterm Review
-    assignment:
-      - text:
+        link: /references/midterm-1-guide
 
   - name: Friday 10/13
     lecture:
       - text: Midterm 1
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -165,26 +115,17 @@
   - name: Monday 10/16
     lecture:
       - text: Lighting and Shading I
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 10/18
     lecture:
       - text: Lighting and Shading II
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 10/20
     lecture:
       - text: Lighting and Shading III
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -195,26 +136,17 @@
   - name: Monday 10/23
     lecture:
       - text: Lighting and Shading IV
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 10/25
     lecture:
       - text: Textures
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 10/27
     lecture:
       - text: Viewing Transforms and Cameras I
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -225,26 +157,17 @@
   - name: Monday 10/30
     lecture:
       - text: Viewing Transforms and Cameras II
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 11/1
     lecture:
       - text: Geometry and Animation
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 11/3
     lecture:
       - text: Clipping, Culling, & Hidden Surface Removal
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -255,26 +178,17 @@
   - name: Monday 11/6
     lecture:
       - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 11/8
     lecture:
       - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 11/10
     lecture:
       - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
@@ -285,18 +199,12 @@
   - name: Monday 11/13
     lecture:
       - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 11/15
     lecture:
       - text: TBA
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 11/17
     override: Holiday - Veterans Day
@@ -310,26 +218,17 @@
   - name: Monday 11/27
     lecture:
       - text: Catchup Day
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Wednesday 11/29
     lecture:
       - text: Midterm Review
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
   - name: Friday 12/1
     lecture:
       - text: Midterm 2
-    lab:
-      - text:
-    assignment:
-      - text:
+
 
 ###############################################################################
 
