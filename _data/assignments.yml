@@ -42,8 +42,9 @@ lab05:
   subtitle: "Transformation Matrices"
   type:     lab
   individual: true
-  assigned: TBA
-  due:      TBA
+  assigned: Monday 10/9
+  due:      Friday 10/13
+  basecode: https://github.com/calpoly-csc471/lab05
 
 lab06:
   title:    Lab 6

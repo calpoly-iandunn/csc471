@@ -4,15 +4,6 @@ assignment: "lab05"
 title: Lab 5
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment may change, but build instructions and base code may not yet be available!
-  </p>
-</div>
-
 Today we will explore transformation matrices and practice transforming (trans-
 lating, scaling, and rotating) objects. We will not be using eigen today but will be
 implementing all matrix functions ourselves. We will use more of the built in
