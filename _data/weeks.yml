@@ -135,8 +135,7 @@
   days:
 
   - name: Monday 10/9
-    lecture:
-      - text: Midterm Review
+    lecture: C++
     lab:
       - text:
     assignment:
@@ -144,15 +143,14 @@
 
   - name: Wednesday 10/11
     lecture:
-      - text: Midterm 1
     lab:
-      - text:
+      - text: Midterm Review
     assignment:
       - text:
 
   - name: Friday 10/13
     lecture:
-      - text: Catchup Day
+      - text: Midterm 1
     lab:
       - text:
     assignment:
