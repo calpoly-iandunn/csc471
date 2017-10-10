@@ -93,7 +93,8 @@
 
   - name: Monday 10/9
     lecture:
-      - text: C++
+      - text: C++ 1
+        link: /lectures/14-cpp-1
 
 
   - name: Wednesday 10/11
