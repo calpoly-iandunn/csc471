@@ -9,7 +9,7 @@ title: Lab 8
   <h4>Warning!</h4>
   <p>
     This content is not fully ready yet.
-    The details of the assignment may change, but build instructions and base code may not yet be available!
+    The details of the assignment may change, and build instructions and base code may not yet be available!
   </p>
 </div>
 
