@@ -1,0 +1,8 @@
+<svg width="250" height="200" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="30" y="30" width="190" height="140" fill="none" stroke="black" stroke-width="2"/>
+
+  <text x="20" y="160" font-family="Verdana" font-size="18">(0, 0)</text>
+  <text x="120" y="60" font-family="Verdana" font-size="18">(200, 100)</text>
+
+</svg>
