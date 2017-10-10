@@ -4,12 +4,12 @@ assignment: "program02b"
 title: Program 2B
 ---
 
-<div class="alert alert-dismissible alert-danger">
+<div class="alert alert-dismissible alert-warning">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <h4>Warning!</h4>
   <p>
     This content is not fully ready yet.
-    The details of the assignment may change, but build instructions and base code may not yet be available!
+    The details of the assignment will not change, but build instructions and base code may not yet be available!
   </p>
 </div>
 
@@ -159,13 +159,58 @@ Percentage point break down:
   <div class="col-sm-6">
     <img src="program2b_9.png" alt="Program 2A Figure 9" class="img-thumbnail" />
     <p>
-      Student example (Austin W 2017)
+      Student example (Austin W17)
     </p>
   </div>
   <div class="col-sm-6">
     <img src="program2b_10.png" alt="Program 2A Figure 10" class="img-thumbnail" />
     <p>
-      Student example (Tori W 2017)
+      Student example (Tori W17)
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <img src="program2b_11.png" alt="Program 2A Figure 11" class="img-thumbnail" />
+    <p>
+      Student example (Rachel S17)
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <img src="program2b_12.png" alt="Program 2A Figure 12" class="img-thumbnail" />
+    <p>
+      Student example (Jared S17)
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <img src="program2b_13.png" alt="Program 2A Figure 13" class="img-thumbnail" />
+    <p>
+      Student example (Rebecca S17)
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <img src="program2b_14.png" alt="Program 2A Figure 14" class="img-thumbnail" />
+    <p>
+      Student example (Jon S17)
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <img src="program2b_15.png" alt="Program 2A Figure 15" class="img-thumbnail" />
+    <p>
+      Student example (Bonita S17)
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <img src="program2b_16.png" alt="Program 2A Figure 16" class="img-thumbnail" />
+    <p>
+      Student example (Jed S17)
     </p>
   </div>
 </div>
