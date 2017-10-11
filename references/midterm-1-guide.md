@@ -125,8 +125,61 @@ What is the equation for a plane with the normal $$ n^T = \begin{bmatrix}5 & 3 &
 What is the equation for the planes with the same normal but which include the point $$ p_1 = \{ 4, 6, 7 \} $$?
 
 
-**More problems coming soon**
+### 2D Transform Matrices
 
+Given the following 2D transform matrices:
+
+$$ m_0 = \begin{bmatrix}-1 & 0 & 0\\0 & 1 & 0\\0 & 0 & 1\end{bmatrix} $$
+
+$$ m_1 = \begin{bmatrix}0.707 & -0.707 & 0\\0.707 & 0.707 & 0\\0 & 0 & 1\end{bmatrix} $$
+
+$$ m_2 = \begin{bmatrix}1 & 0 & -1\\0 & 1 & -1\\0 & 0 & 1\end{bmatrix} $$
+
+$$ m_3 = \begin{bmatrix}3 & 0 & 0\\0 & 3 & 0\\0 & 0 & 1\end{bmatrix} $$
+
+Name what type of 2D transformation is associated with each matrix and
+say something about the magnitude of the transform for x or y or angle, as applicable.
+
+If these are 2D transforms, why are they 3x3 matrices?
+
+**Compute** $$ m_1 * m_2 $$ (that is, write out the composite matrix) and
+**Draw** the result of applying the composite matrix to the following figure.
+Include coordinate labels for your completed drawing:
+
+![figure-03](midterm-1-figure-3.svg)
+
+
+### OpenGL / glm
+
+Carefully draw the result of the following glm code assuming that the `DrawFlower()`
+function draws the image below without the dashed lines, which are just there to show
+you the **size** of the flower (i.e. the bounding box of the flower, ranges from a lower left
+corner of $${-1,0}$$ and extends to an upper right corner of $${1,3}$$). Recall that rotations are
+specified as counter-clockwise.
+
+**Carefully** read all the code below before drawing.
+
+```cpp
+void SetModel(glm::vec3 trans, float sf, float ang, glm::vec3 axis) {
+  glm::mat4 Trans = glm::translate( glm::mat4(1.0f), trans);
+  glm::mat4 Scale = glm::scale( glm::mat4(1.0f), glm::vec3(sf));
+  glm::mat4 Rot = glm::rotate( glm::mat4(1.0f), angle, axis);
+  glm::mat4 Model = Trans*Scale*Rot;
+  safe_glUniformMatrix4fv(h_uModelMatrix, glm::value_ptr(Model));
+}
+
+/* ... */
+
+/*in Draw function */
+SetModel(glm::vec3(0), 1, 45, glm::vec3(0, 0, 1));
+DrawFlower();
+SetModel(glm::vec3(4, 0, 0), 1, -45, glm::vec3(0, 0, 1));
+DrawFlower();
+```
+
+![figure-04](midterm-1-figure-4.png)
+
+![figure-05](midterm-1-figure-5.png)
 
 ## Prior Exam
 
