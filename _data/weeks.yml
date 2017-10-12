@@ -101,6 +101,8 @@
     lecture:
       - text: Midterm Review
         link: /references/midterm-1-guide
+      - text: Lines and Planes
+        link: /lectures/03-lines-and-planes
 
   - name: Friday 10/13
     lecture:
