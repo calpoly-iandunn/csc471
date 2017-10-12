@@ -129,5 +129,6 @@ Your result should look something like this.
 {% include image-block.html file="lab5_4.png" alt="Lab 5 Figure 4" %}
 
 Think about how you would rotate the letter as a whole, so that it looks like this.
+Then do it.
 
 {% include image-block.html file="lab5_5.png" alt="Lab 5 Figure 5" %}
