@@ -97,8 +97,8 @@ with 5 spheres and 2 cylinders. Your transforms must include:
 
 Please color your model using the normal of the model as done in lab 5 (note that in order
 to provide normal for your cylinder geometry, you can pass a copy of the vertex loca-
-tions, think about why this is valid). An example `sphere.obj` file with normal will be pro-
-vided. Make your scene look interesting.
+tions, think about why this is valid). An example `sphere.obj` file with normal is
+provided [here](sphere.obj). Make your scene look interesting.
 
 
 
