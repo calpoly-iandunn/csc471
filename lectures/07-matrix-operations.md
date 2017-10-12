@@ -98,6 +98,13 @@ $$ acos( \hat a \cdot \hat b) = \theta $$
 We can use this to determine if two vectors are pointing away from one another or not.
 
 
+### Projection
+
+The projection of a vector $$ \vec a $$ onto vector $$ \vec b $$ is:
+
+$$ (\vec a \cdot \vec b) * \vec b $$
+
+
 
 ## Matrix Multiplication
 
