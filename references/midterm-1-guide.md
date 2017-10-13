@@ -183,5 +183,5 @@ DrawFlower();
 
 ## Prior Exam
 
-[Prior Exam - Winter 2017](midterm1_W17.pdf) will be posted after the first student-hosted, public study session!
+[Prior Exam - Winter 2017](midterm1_W17.pdf) is posted.
 
