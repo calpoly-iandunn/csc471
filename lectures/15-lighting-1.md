@@ -86,7 +86,7 @@ Pink is one of the ways that our brain interprets light, so it's a color.
 It is called a [non-spectral color](https://en.wikipedia.org/wiki/Spectral_color#Non-spectral_colors).
 
 
-### Now a More Accurate Version
+### Now A More Accurate Version
 
 You have eyes.
 
@@ -110,3 +110,39 @@ Your brain has to take this information and deduce what color you are seeing.
 
 ### Cone Response
 
+![cone-response](15-figure-cone-response.png)
+
+Light that enters our eyes is (typically) a full distribution of wavelength values.
+You can think of this as an infinite number of values, one per each possible wavelength.
+Our brain ends up with 3 values, one per cone type.
+
+Note that cones can give the same response for a different wavelength and different intensity.
+
+![green-response](15-figure-green-response.png)
+
+However, the different cone types will respond differently to this signal.
+
+![response-comparison](15-figure-response-comparison.png)
+
+This is how our brain can figure out the difference between colors.
+But it is also clearly not a perfect system.
+
+<div class="well well-sm">
+  By the way, many types of color blindness are caused by either malfunctioning or missing cones of a certain type.
+  You can see how this wouldn't necessarily result in an individual being unable to see certain colors,
+  but would inhibit their ability to distinguish colors.
+
+  For example, the most common type of color blindness is "Deuteranomaly",
+  in which the M or "green" cones sensitivity is shifted slightly towards red.
+  Individuals with deuteranomaly can still see red and green, but can have trouble distinguishing them.
+</div>
+
+Consider the following spectra:
+
+![metamer-1](15-figure-metamer-1.png)
+
+![metamer-2](15-figure-metamer-2.png)
+
+These are clearly different amounts of lights (different spectral power distributions)
+and yet they will illicit the same response in our relatively simple color vision system.
+Such colors (which match in perception but not in frequency distribution) are called **metamers**.
