@@ -21,3 +21,4 @@ title: "Lectures"
 - [12 - Geometric Transformations](12-geometric-transforms)
 - [13 - Hierarchical Transformations](13-hierarchical-modeling)
 - [14 - C++ 1](14-cpp-1)
+- [15 - Lighting 1](15-lighting-1)

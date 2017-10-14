@@ -118,6 +118,7 @@
   - name: Monday 10/16
     lecture:
       - text: Lighting and Shading 1
+        link: /lectures/15-lighting-1
 
 
   - name: Wednesday 10/18
