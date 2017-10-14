@@ -42,12 +42,47 @@ This is a full distribution: one value per wavelength (infinite number of values
 
 To understand light and illumination, we need to understand two things.
 
-**(1)** How does light get to our eyes (what happens on the way)?
+**(1)** What does it mean for an object to have color?
 
 **(2)** What happens when light hits our eyes?
 
 
 Let's talk about the second part, then go back to the first part.
+
+
+## Reflectance
+
+When light hits an object, it reflects off of it.
+
+![reflectance-1](15-figure-reflectance-1.svg)
+
+The light source has a **spectrum**: a distribution of light at different wavelengths/frequencies with different power.
+If the light source has more or less equal power across all visible light wavelengths/frequencies, it is a white light.
+A red light would have more power in the red wavelengths and less power in the green and blue wavelengths.
+
+<div class="well well-sm">
+Note that when I say "red", "green", and "blue" here I am grouping areas of the spectrum into three areas,
+but in reality there is no such grouping.
+This is a continuous spectrum.
+</div>
+
+The object that the light hits also has a spectrum - a reflectance spectrum or **spectral albedo**.
+All this means is that the object might reflect more of a certain type of light.
+Other light is absorbed.
+
+A red object absorbs blue and green light, but reflects red light.
+That's why it looks red - red light is the only light we see coming off of it.
+
+![reflectance-2](15-figure-reflectance-2.png)
+
+The two spectra (the light source's and the object's) get multiplied together to determine the color signal received by the viewer.
+
+For example, if sunlight hits a blue object, the reflected light will be mostly blue.
+
+![reflectance-3](15-figure-reflectance-3.png)
+
+Note that this blue object still reflects some red light, just not nearly as much as blue.
+
 
 
 ## Color Vision
@@ -78,12 +113,13 @@ The middle is green... but instead our brain makes up a color.
 
 Pink is not on the spectrum.
 
-Pale red and pale violet are... but a mix of these colors is not on the spectrum.
+Red and violet are... but a mix of these colors is not on the spectrum.
 
 That doesn't mean that Pink isn't a color, though.
 Color is just the word we use to describe how our brains interpret light.
 Pink is one of the ways that our brain interprets light, so it's a color.
 It is called a [non-spectral color](https://en.wikipedia.org/wiki/Spectral_color#Non-spectral_colors).
+There are many other examples.
 
 
 ### Now A More Accurate Version
@@ -146,3 +182,39 @@ Consider the following spectra:
 These are clearly different amounts of lights (different spectral power distributions)
 and yet they will illicit the same response in our relatively simple color vision system.
 Such colors (which match in perception but not in frequency distribution) are called **metamers**.
+
+The good news is that this allows us to use a handful of colors to reproduce all (really, "most", but let's call it "all") colors.
+
+![rgb](15-figure-rgb.png)
+
+
+
+## Color Opponent Process
+
+While we're at it, it's worth talking about another mechanism of color vision.
+After the cones are activated by light, the response is received by **retianl ganglion cells**.
+These cells come in three varieties: **magneta-green**, **blue-yellow**, and **black-white**.
+
+This is why there is no such thing as "red-ish green" or "blue-ish yellow".
+Our abilitiy to see colors is based on the signals from these cells.
+A combination of magenta and green simply cancels out to no signal, or white.
+
+![color-vision-model](15-figure-color-vision-model.svg)
+
+This is also why if you stare at a red image for a long time, when you look away you will see a cyan "afterimage".
+
+
+## Summary
+
+The main takeaway from this lengthy discussion is that:
+
+**(1)** Human color vision is complicated.
+
+**(2)** Human color vision is imperfect.
+
+**(3)** When it comes to drawing the world, we need to be concerned with how light is absorbed and reflected by media.
+
+We're done with the first two points.
+Now we start talking about the third point in more detail,
+coming up with some mathematical models to simulate it,
+and converting this to GLSL code to draw 3D objects.
