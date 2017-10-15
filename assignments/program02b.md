@@ -4,12 +4,12 @@ assignment: "program02b"
 title: Program 2B
 ---
 
-<div class="alert alert-dismissible alert-warning">
+<div class="alert alert-dismissible alert-success">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
+  <h4>Base Code!</h4>
   <p>
-    This content is not fully ready yet.
-    The details of the assignment will not change, but build instructions and base code may not yet be available!
+    For this assignment, use either your code from Lab 5 or your code from Program 2A.
+    You will likely want to have both the Shape class from L5 and the MatrixStack class from P2A, but this is up to you.
   </p>
 </div>
 
