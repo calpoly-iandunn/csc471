@@ -4,14 +4,6 @@ assignment: "lab06"
 title: Lab 6
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    Base code is not yet ready for this assignment
-  </p>
-</div>
-
 Today’s lab we will play with simple hierarchical modeling and the use of a matrix stack
 to apply multiple transforms in a hierarchical manner.
 

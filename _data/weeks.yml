@@ -140,17 +140,17 @@
 
   - name: Monday 10/23
     lecture:
-      - text: Textures 1
+      - text: Viewing Transforms and Cameras 1
 
 
   - name: Wednesday 10/25
     lecture:
-      - text: Textures 2
+      - text: Viewing Transforms and Cameras 2
 
 
   - name: Friday 10/27
     lecture:
-      - text: Framebuffers
+      - text: Viewing Transforms and Cameras 3
 
 
 ###############################################################################
@@ -161,17 +161,17 @@
 
   - name: Monday 10/30
     lecture:
-      - text: Viewing Transforms and Cameras 1
+      - text: Textures 1
 
 
   - name: Wednesday 11/1
     lecture:
-      - text: Viewing Transforms and Cameras 2
+      - text: Textures 2
 
 
   - name: Friday 11/3
     lecture:
-      - text: Viewing Transforms and Cameras 3
+      - text: Framebuffers
 
 
 ###############################################################################

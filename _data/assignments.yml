@@ -53,22 +53,23 @@ lab06:
   individual: true
   assigned: Monday 10/16
   due:      Friday 10/20
+  basecode: https://github.com/calpoly-csc471/lab06
 
 lab07:
   title:    Lab 7
   subtitle: "Diffuse Lighting"
   type:     lab
   individual: true
-  assigned: TBA
-  due:      TBA
+  assigned: Monday 10/23
+  due:      Friday 10/27
 
 lab08:
   title:    Lab 8
   subtitle: "Pitch and Yaw Camera"
   type:     lab
   individual: true
-  assigned: TBA
-  due:      TBA
+  assigned: Monday 10/30
+  due:      Friday 11/3
 
 
 
@@ -101,7 +102,7 @@ program02b:
   type:     program
   individual: true
   assigned: Monday 10/9
-  due:      Monday 10/16
+  due:      Wednesday 10/18
   github:   https://classroom.github.com/a/RqE3RBqv
 
 program03:
@@ -111,7 +112,7 @@ program03:
   individual: true
   assigned: TBA
   due:      TBA
-  # github:   https://classroom.github.com/a/nWvfuZvX
+  github:   https://classroom.github.com/a/1qRb75Zg
 
 program04:
   title:    Program 4
@@ -120,4 +121,4 @@ program04:
   individual: true
   assigned: TBA
   due:      TBA
-  # github:   https://classroom.github.com/a/nWvfuZvX
+  github:   https://classroom.github.com/a/7w82Glxc
