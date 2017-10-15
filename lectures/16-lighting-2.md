@@ -172,7 +172,7 @@ Ideally, we would measure the radiant energy for all combinations of indicent an
 That would give us a function that tells us the outgoing light in all directions for some incoming light.
 
 Such a function would be a reflection function.
-Since it describes light the way interacts in all directions, it's a distribution function.
+Since it describes how light is distributed, it's a distribution function.
 And since it takes both an incident and outward direction, it's bi-directional.
 
 It's a **bi-direction reflection distribution function**.
@@ -181,3 +181,47 @@ $$ BRDF_\lambda (\theta, \phi, \gamma, \psi) $$
 
 These are difficult to measure in practice.
 Often we model them analytically.
+
+
+
+
+## Phong Reflection Model
+
+A simple analytic model proposed by Phong, the sum of:
+
+- diffuse reflection
+- specular reflection
+- ambient
+
+### Diffuse Reflection
+
+Assume the surface reflects equally in all directions.
+An ideal diffuse surface is, at the microscopic level, a very rough surface.
+
+Example: chalk, clay
+
+![diffuse-reflection](16-figure-diffuse-reflection.png)
+
+Ideal diffuse reflectors reflect light according to **Lambert's cosine law**.
+
+This type of diffuse lighting, or a shading model that uses only this part, is called **lambertian**.
+The reflected intensity is independent of the viewing direction.
+It depends only on the angle of incident light.
+
+$$ I_d = k_d ( N \cdot L ) I_L $$
+
+- $$ I_L $$: the incoming light intensity
+- $$ K_d $$: diffuse reflection coefficient
+- $$ N $$: surface normal
+- $$ L $$: light direction
+
+
+### Specular Reflection
+
+
+
+
+### Ambient
+
+
+![phong](16-figure-phong.png)
