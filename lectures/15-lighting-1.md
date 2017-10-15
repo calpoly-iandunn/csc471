@@ -1,27 +1,9 @@
 ---
 layout: page
 active: lectures
-title: "Lecture 15: Lighting 1"
+title: "Lecture 15: Lighting and Shading 1 - Color and Vision"
 auto-title: true
 ---
-
-Why do we care about lighting?
-
-Lighting makes things look 3D.
-
-Without lighting:
-
-![flat-sphere](15-figure-flat-sphere.svg)
-
-With lighting:
-
-![shaded-sphere](15-figure-shaded-sphere.png)
-
-Some definitions:
-
-**Shading:** the process of assigning a colors to pixels
-
-**Illumination:** the transport of photons from light sources via direct and indirect paths
 
 
 ## Color and Light

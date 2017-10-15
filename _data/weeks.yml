@@ -117,13 +117,14 @@
 
   - name: Monday 10/16
     lecture:
-      - text: Lighting and Shading 1
+      - text: "Lighting and Shading 1: Color and Vision"
         link: /lectures/15-lighting-1
 
 
   - name: Wednesday 10/18
     lecture:
-      - text: Lighting and Shading 2
+      - text: "Lighting and Shading 2: Reflectance Modeling"
+        link: /lectures/16-lighting-2
 
 
   - name: Friday 10/20
