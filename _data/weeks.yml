@@ -129,7 +129,8 @@
 
   - name: Friday 10/20
     lecture:
-      - text: Lighting and Shading 3
+      - text: "Lighting and Shading 3: Details and Wrapup"
+        link: /lectures/17-lighting-3
 
 
 ###############################################################################

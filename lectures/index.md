@@ -23,3 +23,5 @@ title: "Lectures"
 - [14 - C++ 1](14-cpp-1)
 - [15 - Lighting 1: Color and Vision](15-lighting-1)
 - [16 - Lighting 2: Reflectance Modeling](16-lighting-2)
+- [17 - Lighting 3: Details and Wrapup](17-lighting-3)
+
