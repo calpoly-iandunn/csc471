@@ -141,17 +141,19 @@
 
   - name: Monday 10/23
     lecture:
-      - text: Viewing Transforms and Cameras 1
+      - text: Viewing Transforms
 
 
   - name: Wednesday 10/25
     lecture:
-      - text: Viewing Transforms and Cameras 2
+      - text: Guest Speaker (Erik from Altair)
+        outbound: http://www.altair.com/
+      - text: Lookat Matrix Formulation
 
 
   - name: Friday 10/27
     lecture:
-      - text: Viewing Transforms and Cameras 3
+      - text: Projection Transforms
 
 
 ###############################################################################
