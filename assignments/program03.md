@@ -4,114 +4,122 @@ assignment: "program03"
 title: Program 3
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet - we will be adding a few more things.
-    Base code, if any, is not yet available!
-  </p>
-</div>
-
-The late policy on the syllabus applies. This programming assignment
-should be done individually! You may talk to one another about the program, but you
-may not look at someone’s working code.
+The late policy on the syllabus applies.
+This programming assignment should be done **individually**!
+You may talk to one another about the program, but you may not look at someone’s working code.
 
 
 
 ## Objectives
 
-Learn about handling obj files with multiple shapes and shading, specifically
-the Blinn-Phong model, and explore creating appealing materials. Goal: create a program
-that can set up a scene with multiple meshes with different material properties on the two
-different meshes.
+Objectives: learn about shading, including the difference between Gouraud, Phong and a
+silhouette shader. Create a program that can set up a scene with multiple meshes with
+different material properties on the two different meshes.
 
-You may start with any of the prior code to read in an obj mesh, but I recommend the
-program 3 release code.
-
-
-
-## Step 1:
-
-Fix the base code to be able to display a mesh from an obj file with multiple
-“shapes. By default the older code we have worked with on displayed “shape[0]” from
-the obj file. The new base code is set up so that you can create a “Shape” object for each
-of the tiny_obj “shapes” . You need to fix the code in “initGeom” in main.cpp and you
-need to compute the bounds of the entire mesh to make sure it can display at the origin
-and a reasonable scale. Once you have this code in place, you should be able to see thw
-whole “dummy” model. See the below figure for an example:
-
-{% include image-block.html file="program3_1.png" alt="Program 3 Figure 1" %}
+You may start with any of the prior code to read in an obj mesh (that is specified on the
+command line). Note that your program must compute the normals for the input mesh –
+even for a mesh with normals provided, you must compute the normals. **Your code
+will be tested on files that do not include normal, so your code must deal with this!** To
+complete this assignment you must:
 
 
 
-## Step 2:
+### Step 1:
 
-Write code to compute the Blinn-Phong lighting model for your mesh.
+Read in and display two copies of a mesh (one slightly rotated). Write code to
+compute normals for the mesh. Start with a normal per face and then compute the
+weighted average normal per vertex of all neighboring face normals. While
+debugging, use the shader we used for P2B, which displayed the normal of the
+mesh as a color. Make sure that your computed normal look reasonable! When
+toggling through the shaders using the “p” key (see #4), the normal should be
+displayed with this original coloring.
 
----
+{% include image-block.html file="program3_1.jpg" alt="Program 3 Figure 1" %}
 
-You will need to add code to specify lighting in your world. Your program
+
+
+### Step 2:
+
+You will also need to add code to specify lighting in your world. Your program
 should have at least one light source at a reasonable position (Please have at least
-one light start at `position = {-2, 2, 2}` that is white `color = {1, 1, 1}`).
-
-Allow the user to change the
-position of the light using the keyboard – specifically if the user presses the `q`
-key the light should move to the left and when the user presses the `e` key the
+one light start at {-2, 2, 2} that is white {1, 1, 1}). Allow the user to change the
+position of the light using the keyboard – specifically if the user presses the ‘q’
+key the light should move to the left and when the user presses the ‘e’ key the
 light should move to the right. All lighting should be done via your GLSL
-shaders. You may implement more complex lighting options that you can define
-in your readme.
-
----
-
-You will need a way to specify different materials for the mesh (which will
-control its shading). Three default materials are provided below in a helper
-function– you must include these in your implementation these as your lighting
-results will be compared against these. You will need to add another material that
-you find interesting. Provide support to toggle through all four of the different
-material via the `m` key.
-
----
-
-Next implement the Blinn-Phong shading in your fragment shader (i.e. the
-normals are interpolated across the face and shading is computed per pixel). Note
-there are several tutorials on this. We are familiar with the tutorial code and will
-notice it if you hand it in as your own. Please write your own code from scratch
-and understand what each line is doing.
-
----
-
-*Be sure you keep all vectors in the same space!* No vectors used for lighting
-should be transformed in perspective space.
-
----
-
-Add basic mesh transforms such that the `a` and `d` keys hooked up to rotate the
-left most mesh around the Y axis.
-
-In general, set up a scene with at least two meshes. Either the same one in two different
-positions (with two different materials) or two different meshes. For extra credit, figure
-out which shapes in the model belong to which parts and transform part of the model (see
-below figure where the upper torso of the dummy has been rotated in two different
-directions).
-
-When not specified exactly, you must make reasonable design choices as to exactly how
-to support the necessary functionality for the program.
+shaders.
 
 
 
-## Grading
+### Step 3:
 
-Point breakdown (A completely functional program is worth 100 points total):
+Next add support to allow the meshes to be drawn as smooth shaded (Gouraud)
+shading. Implement the shading by computing and setting a color per vertex in
+your vertex shader. Your shading should include diffuse, specular and ambient
+lighting. Gouraud shading should be implements in one shader pair.
 
-- 30 pts for a multi-shape mesh
-- 30 pts for correct Blinn-Phong fragment shader
-- 15 pts for translating the light
-- 15 pts for correct (and unique new) materials
-- 10 point for overall functionality (i.e. functioning transformations, etc.)
+{% include image-block.html file="program3_6.jpg" alt="Program 3 Figure 6" %}
+
+
+
+### Step 4:
+
+Next implement the full Phong shading via a fragment shader, that is the normals
+are interpolated across the face and shading is computed per pixel. The ‘p’ key
+should allow the user to toggle between the various shading models. Be sure
+to toggle between the different shaders by toggling between programs on the
+CPU.
+
+{% include image-block.html file="program3_3.jpg" alt="Program 3 Figure 3" %}
+
+{% include image-block.html file="program3_7.jpg" alt="Program 3 Figure 7" %}
+
+For both shaders work slowly and be sure you keep all vectors in the same space!
+No vectors used for lighting should be transformed in perspective space.
+
+
+
+### Step 5:
+
+Next, write a silhouette shader, that draws the ‘outline edges’ of the mesh. You
+will do this, by coloring all fragments white, except for those that have a normal
+that is almost perpendicular to the eye vector (see below image, which illustrates
+the eye vector and the output of a silhouette shader).
 
 {% include image-block.html file="program3_2.png" alt="Program 3 Figure 2" %}
 
+{% include image-block.html file="program3_4.png" alt="Program 3 Figure 4" %}
+
+
+
+### Step 6:
+
+You will need a way to specify different materials for the mesh (which will
+control its shading). Three default materials will be provided – you must include
+these in your implementation these as your lighting results will be compared
+against these. You will need to add another material that you find interesting.
+Provide support to toggle through all four of the different material via the ‘m’
+key.
+
+{% include image-block.html file="program3_5.jpg" alt="Program 3 Figure 5" %}
+
+
+
+### Step 7:
+
+Add basic mesh transforms such that the ‘r’ key will rotate the meshes around the
+Y axis.
+
+
+### Controls
+
+In summary, your code needs to support:
+- Command line argument to load different obj files (and compute their normals)
+- “r” key to rotate meshes
+- “q” and “e” key to move the light position along the X axis
+- “p” key to toggle between four shaders: colored normals, Gourad, Phong, silhouette
+- “m” key to toggle between materials
+
+Materials to use – something like:
 
 ```cpp
 void SetMaterial(int i) {
@@ -137,3 +145,20 @@ void SetMaterial(int i) {
   }
 }
 ```
+
+
+
+## Grading
+
+When not specified exactly, you must make reasonable design choices to support the
+necessary functionality for the program. Point breakdown (A completely functional
+program is worth 100 points total.):
+
+- 10 pts for two meshes shaded with correct normal (mapped to rgb)
+- 10 pts for correctly computed normal (must be computed in your program)
+- 14 pts for smooth shading (Gouraud)
+- 16 pts for Phong fragment shader
+- 14 pts for silhouette shader
+- 10 pts for translating the light
+- 10 pts for support of materials
+- 16 point for overall functionality (i.e. multiple shaders, rotation, key mappings etc.)
