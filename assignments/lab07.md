@@ -4,15 +4,6 @@ assignment: "lab07"
 title: Lab 7
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment may change, and build instructions and base code may not yet be available!
-  </p>
-</div>
-
 Simple lighting – diffuse lighting on a sphere
 
 Today we will implement simple diffuse lighting for a sphere obj file. Starting with any
@@ -35,7 +26,7 @@ Now modify the vertex shader (and .cpp file as necessary) to shade the sphere wi
 Gouraud diffuse and ambient shading (this means that you will compute the color in the
 vertex shader).
 
-1. You can choose a fixed light position to use to compute the light vector
+1. You can choose a fixed light direction to use to compute the light vector (for a directional light)
 2. You can choose two different diffuse colors for each sphere
 3. For one sphere, update the normal to follow the rotation
 4. For the other sphere, leave the normal as they are (so the lighting stays ‘fixed’
