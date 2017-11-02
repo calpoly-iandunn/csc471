@@ -71,11 +71,12 @@ confused by rapid motion).
 
 ---
 
-Include a "mirror" in your scene (see below figures for an example) – do this, by first
-capturing a view of the scene from the mirror’s position, save this as a frame buffer object
-(similar to the joint lab with CPE 419). Then texture this view onto a quad in your scene
-and which can be viewed from any angle – consider making the textured rendering darker
-or include bordering edges to make your mirror obvious. Place it somewhere reasonable.
+Include an updating “surveillance camera + tv monitor” in your scene (see below figures for an example) -
+do this, by first capturing a view of the scene from the monitor’s position, save this as a frame buffer object.
+Then texture this view onto a quad in your scene and which can be viewed from any angle -
+consider making the textured rendering darker or include bordering edges to make your surveillance camera + tv monitor obvious.
+Place it somewhere reasonable.
+The “surveillance camera + tv monitor” should update every frame and can include any cool FBO effect you think – i.e. make it black and white, or blurry, or pixelated, or ??.
 
 ---
 
