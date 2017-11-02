@@ -13,6 +13,11 @@ auto-title: true
 - [Using Git and GitHub Classroom](git)
 
 
+## Theory References
+
+- [Blinn-Phong Reflectance Model](blinnphongreflectance)
+
+
 ## OpenGL Examples
 
 - [Minimal OpenGL Example](minimal-opengl)
@@ -23,6 +28,6 @@ auto-title: true
 - [Midterm 1 Guide](midterm-1-guide)
 
 
-## Eternal References
+## External References
 
 - [Useful link about transforming coordinate space (world to pixel)](img_gortler.pdf)
