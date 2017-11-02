@@ -10,9 +10,9 @@ auto-title: true
 
 In the **Blinn-Phong Reflectance Model**, reflectance is defined as:
 
-$$ I_T = I_A + \sum_{i=0}^n I_D + I_S $$
+$$ I_T = I_A + \sum_{i=0}^l I_D + I_S $$
 
-For $$ n $$ lights where:
+For $$ l $$ lights where:
 
 $$ I_T $$ is the total reflectance.
 
