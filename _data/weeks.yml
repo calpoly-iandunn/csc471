@@ -245,7 +245,7 @@
 - number: 11
   name: Finals Week
   days:
-  - name: "Final Exam - ??? 12/? @ ???"
-    override: "Final Project Demos"
+  - name: "Final - Monday 12/4 @ 4:10pm - 7:00pm"
+    override: "Final Project Demos (verify with published final exam schedule)"
 
 ###############################################################################
