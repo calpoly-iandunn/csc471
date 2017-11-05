@@ -29,3 +29,7 @@ title: "Assignments"
   {% endif %}
 {% endfor %}
 
+
+## Final Project
+
+- [Final Project due at scheduled final exam time](final)
