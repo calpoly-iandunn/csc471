@@ -25,4 +25,5 @@ title: "Lectures"
 - [16 - Lighting 2: Reflectance Modeling](16-lighting-2)
 - [17 - Lighting 3: Details and Wrapup](17-lighting-3)
 - [18 - Lookat Matrix](18-lookat-matrix)
-
+- [19 - Textures](19-textures)
+- [20 - Framebuffers](20-framebuffers)

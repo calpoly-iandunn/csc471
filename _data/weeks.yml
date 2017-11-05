@@ -166,17 +166,20 @@
 
   - name: Monday 10/30
     lecture:
-      - text: Textures 1
+      - text: Textures
+        link: /lectures/19-textures
 
 
   - name: Wednesday 11/1
     lecture:
-      - text: Textures 2
+      - text: Textures, cont.
+        link: /lectures/19-textures
 
 
   - name: Friday 11/3
     lecture:
       - text: Framebuffers
+        link: /lectures/20-framebuffers
 
 
 ###############################################################################
