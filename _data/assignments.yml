@@ -77,8 +77,8 @@ lab09:
   subtitle:   "Texture Mapping"
   type:       lab
   individual: true
-  assigned:   TBA
-  due:        TBA
+  assigned:   Wednesday 11/8
+  due:        Wednesday 11/15
   # basecode:   https://github.com/calpoly-csc471/lab09
 
 lab10:
@@ -86,8 +86,8 @@ lab10:
   subtitle:   "Particle Systems"
   type:       lab
   individual: true
-  assigned:   TBA
-  due:        TBA
+  assigned:   Wednesday 11/15
+  due:        Friday 12/1
   # basecode:   https://github.com/calpoly-csc471/lab10
 
 
