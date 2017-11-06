@@ -191,6 +191,9 @@
   - name: Monday 11/6
     lecture:
       - text: Final Project Grab Bag
+        outbound: https://drive.google.com/open?id=1Qkcfy328nOsn2LFyM0ba2NaI1Ri0lCPSIAymPs29xL4
+      - text: Advanced Lighting
+        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
 
 
   - name: Wednesday 11/8
