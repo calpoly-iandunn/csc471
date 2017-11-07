@@ -4,15 +4,6 @@ assignment: "lab10"
 title: Lab 10
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    This content is not fully ready yet.
-    The details of the assignment may change, and base code is not yet available!
-  </p>
-</div>
-
 ## Particles
 
 This lab allows you to play with a very simple particle system.
@@ -21,7 +12,7 @@ This lab allows you to play with a very simple particle system.
 
 Download the base code and familiarize yourself with its main functionality.
 In general, it is an instanced point sprite implementation of particles.
-The program includes 300 particles that are each texture mapped with the `alpha.bmp` file to make them look like small spark like elements.
+The program includes 300 particles that are each texture mapped with the `alpha.bmp` file to make them look like small spark-like elements.
 
 The elements all start at the origin with a negative z value ranging from `-2` to `-3`.
 They all have a random velocity and a very simple update to move their position along their velocity for each frame.
