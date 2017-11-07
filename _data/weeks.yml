@@ -192,18 +192,17 @@
     lecture:
       - text: Final Project Grab Bag
         outbound: https://drive.google.com/open?id=1Qkcfy328nOsn2LFyM0ba2NaI1Ri0lCPSIAymPs29xL4
-      - text: Advanced Lighting
-        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
 
 
   - name: Wednesday 11/8
     lecture:
-      - text: Geometry and Animation 1
+      - text: Texture Filtering
+      - text: Advanced Lighting
+        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
 
 
   - name: Friday 11/10
-    lecture:
-      - text: Geometry and Animation 2
+    override: Holiday - Veterans Day
 
 
 ###############################################################################
@@ -214,16 +213,18 @@
 
   - name: Monday 11/13
     lecture:
-      - text: Clipping, Culling, & Hidden Surface Removal
+      - text: Interpolation and Splines
+      - text: Particle Systems
 
 
   - name: Wednesday 11/15
     lecture:
-      - text: Catchup Day
+      - text: Collision Detection
 
 
   - name: Friday 11/17
-    override: Holiday - Veterans Day
+    lecture:
+      - text: Clipping, Culling, & Hidden Surface Removal
 
 ###############################################################################
 
