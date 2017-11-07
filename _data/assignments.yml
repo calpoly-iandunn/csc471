@@ -79,7 +79,7 @@ lab09:
   individual: true
   assigned:   Wednesday 11/8
   due:        Wednesday 11/15
-  # basecode:   https://github.com/calpoly-csc471/lab09
+  basecode:   https://github.com/calpoly-csc471/lab09
 
 lab10:
   title:      Lab 10
