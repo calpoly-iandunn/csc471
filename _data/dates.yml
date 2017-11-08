@@ -1,0 +1,14 @@
+
+
+
+- when: Monday 11/13
+  what: "Discuss Final Project Choice"
+
+- when: Friday 11/17
+  what: "Final Project Proposal due"
+
+- when: Monday 11/27
+  what: "Final Project Check-in 1"
+
+- when: Friday 12/1
+  what: "Final Project Check-in 2"

@@ -154,6 +154,13 @@ active: home
     {% endif %}
   {% endfor %}
 
+  {% for date in site.data.dates %}
+    {% if day.name == date.when %}
+      {% assign anything = true %}
+              <li>{{ date.what }}</li>
+    {% endif %}
+  {% endfor %}
+
   {% if anything == false %}
               <li><span>Nothing new assigned or due.</span></li>
   {% endif %}

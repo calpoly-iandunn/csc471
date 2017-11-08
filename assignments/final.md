@@ -9,9 +9,9 @@ auto-title: true
 
 Dates to watch out for:
 
-- Meet with instructor during lab to finalize project choice 11/13 (Monday)
+- Meet with instructor during lab to finalize project choice Monday 11/13
 
-- Submit short (1-2 paragraphs) description of project 11/15 (Wednesday)
+- Submit short (1-2 paragraphs) description of project Friday 11/17
 
 - Required in lab project check-in: 11/27 and 12/1 (should be able to demonstrate some progress on the project)
 
