@@ -27,3 +27,4 @@ title: "Lectures"
 - [18 - Lookat Matrix](18-lookat-matrix)
 - [19 - Textures](19-textures)
 - [20 - Framebuffers](20-framebuffers)
+- [21 - Texture Filtering](21-texture-filtering)

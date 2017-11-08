@@ -197,6 +197,7 @@
   - name: Wednesday 11/8
     lecture:
       - text: Texture Filtering
+        link: /lectures/21-texture-filtering
       - text: Advanced Lighting
         outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
 
