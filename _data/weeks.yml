@@ -214,12 +214,14 @@
 
   - name: Monday 11/13
     lecture:
-      - text: Interpolation and Splines
+      - text: Advanced Lighting, cont.
+        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
       - text: Particle Systems
 
 
   - name: Wednesday 11/15
     lecture:
+      - text: Interpolation and Splines
       - text: Collision Detection
 
 
