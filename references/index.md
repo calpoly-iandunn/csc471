@@ -26,6 +26,7 @@ auto-title: true
 ## Exams
 
 - [Midterm 1 Guide](midterm-1-guide)
+- [Midterm 2 Guide](midterm-2-guide)
 
 
 ## External References
