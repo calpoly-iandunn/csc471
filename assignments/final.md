@@ -9,13 +9,15 @@ auto-title: true
 
 Dates to watch out for:
 
-- Meet with instructor during lab to finalize project choice Monday 11/13
+- Meet with instructor during lab to finalize project choice **Monday 11/13**
 
-- Submit short (1-2 paragraphs) description of project Friday 11/17
+- Submit short (1-2 paragraphs) description of project **Friday 11/17**
 
-- Required in lab project check-in: 11/27 and 12/1 (should be able to demonstrate some progress on the project)
+- Required in lab project check-in: **11/27** and **12/1** (should be able to demonstrate some progress on the project)
 
 - Final project demos in final exam time period
+
+All dates are also on the course schedule.
 
 ## Project Description
 
@@ -46,6 +48,17 @@ In general, the format of your project description should include:
 Feel free to include any figures that will help illustrate your project if relevant.
 For ideas for a project, consider looking at all the past class projects or at the SIGGRAPH website for past papers, sketches and courses.
 
+### Hand-In
+
+[Submit your final project description via GitHub Classroom at this link.](https://classroom.github.com/a/jQQ4yoA9)
+
+The following formats are acceptable:
+
+- PDF (`.pdf`)
+- Markdown (`.md`)
+- Plain text (`.txt`)
+
+
 ## Project
 
 Please note that you will need to submit the source code, executable, and relevant data related to your final project to Github Classroom before the scheduled final time.
@@ -61,3 +74,7 @@ General point break down:
 - **10** Project proposal and write-up
 - **10** Progress check-in (these act as multipliers on your grade or either 1, 0.5 or 0)
 - **70-90** Project completion, demonstration, and webpage
+
+### Hand-In
+
+[Submit your final project code via GitHub Classroom at this link.](https://classroom.github.com/a/xgcY92-a)
