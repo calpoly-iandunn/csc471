@@ -198,8 +198,8 @@
     lecture:
       - text: Texture Filtering
         link: /lectures/21-texture-filtering
-      - text: Advanced Lighting
-        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
+      - text: Shadow Maps
+        outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
 
 
   - name: Friday 11/10
@@ -214,20 +214,25 @@
 
   - name: Monday 11/13
     lecture:
-      - text: Advanced Lighting, cont.
+      - text: Deferred Shading
+        outbound: https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8
+      - text: Ambient Occlusion
+        outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
+      - text: Physically-Based Rendering
         outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
-      - text: Particle Systems
 
 
   - name: Wednesday 11/15
     lecture:
+      - text: Particle Systems
       - text: Interpolation and Splines
-      - text: Collision Detection
 
 
   - name: Friday 11/17
     lecture:
+      - text: Collision Detection
       - text: Clipping, Culling, & Hidden Surface Removal
+
 
 ###############################################################################
 
@@ -238,7 +243,6 @@
   - name: Monday 11/27
     lecture:
       - text: Catchup Day
-
 
   - name: Wednesday 11/29
     lecture:
