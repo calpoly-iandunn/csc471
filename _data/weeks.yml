@@ -225,7 +225,9 @@
   - name: Wednesday 11/15
     lecture:
       - text: Particle Systems
+        outbound: https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM
       - text: Interpolation and Splines
+        link: /lectures/22-interpolation
 
 
   - name: Friday 11/17

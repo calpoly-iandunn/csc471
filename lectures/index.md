@@ -28,3 +28,4 @@ title: "Lectures"
 - [19 - Textures](19-textures)
 - [20 - Framebuffers](20-framebuffers)
 - [21 - Texture Filtering](21-texture-filtering)
+- [22 - Interpolation](22-interpolation)
