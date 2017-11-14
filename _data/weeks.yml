@@ -216,24 +216,23 @@
     lecture:
       - text: Deferred Shading
         outbound: https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8
-      - text: Ambient Occlusion
-        outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
-      - text: Physically-Based Rendering
-        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
 
 
   - name: Wednesday 11/15
     lecture:
+      - text: Ambient Occlusion
+        outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
+      - text: Physically-Based Rendering
+        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
       - text: Particle Systems
         outbound: https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM
-      - text: Interpolation and Splines
-        link: /lectures/22-interpolation
 
 
   - name: Friday 11/17
     lecture:
+      - text: Interpolation and Splines
+        link: /lectures/22-interpolation
       - text: Collision Detection
-      - text: Clipping, Culling, & Hidden Surface Removal
 
 
 ###############################################################################
@@ -244,7 +243,7 @@
 
   - name: Monday 11/27
     lecture:
-      - text: Catchup Day
+      - text: Clipping, Culling, & Hidden Surface Removal
 
   - name: Wednesday 11/29
     lecture:
