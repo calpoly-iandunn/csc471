@@ -28,33 +28,28 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
     <a class="navbar-brand" href="{{ "/index.html" | prepend: site.baseurl }}">CSC {{ site.data.course.number }}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbar" aria-controls="topbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-<!--         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
+    <div id="topbar" class="collapse navbar-collapse">
 
-
+      <ul class="navbar-nav mr-auto"> <!-- Course Tabs -->
 {% for tab in site.data.course.tabs %}
-          <li {% if page.active == tab.name or layout.active == tab.name %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
-            <a class="nav-link" href="{{ tab.link | prepend: site.baseurl }}">{{ tab.title }}</a>
-          </li>
+        <li {% if page.active == tab.name or layout.active == tab.name %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
+          <a class="nav-link" href="{{ tab.link | prepend: site.baseurl }}">{{ tab.title }}</a>
+        </li>
 {% endfor %}
-{% for link in site.data.course.links %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ link.link }}">{{ link.title }}</a>
-          </li>
-{% endfor %}
-
-
       </ul>
+
+      <ul class="navbar-nav"> <!-- Course Links -->
+{% for link in site.data.course.links %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ link.link }}">{{ link.title }}</a>
+        </li>
+{% endfor %}
+      </ul>
+
     </div>
   </nav>
 
