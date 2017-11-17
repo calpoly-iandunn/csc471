@@ -105,7 +105,7 @@ active: home
 {% for column in site.data.course.schedule_columns %}
         <!-- {{ column.title }} -->
         <div class="col-sm-6">
-          <div class="card bg-light">
+          <div class="card border-{{ week_class }}">
             <div class="card-body">
               <h4>{{ column.title }}</h4>
               <ul>
@@ -134,7 +134,7 @@ active: home
 
         <!-- Assignments -->
         <div class="col-sm-6">
-          <div class="card bg-light">
+          <div class="card border-{{ week_class }}">
             <div class="card-body">
               <h4>Assignments</h4>
               <ul>
