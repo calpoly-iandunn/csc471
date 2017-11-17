@@ -41,8 +41,8 @@ active: home
 <!-- Quick Links -->
 <!-- /////////// -->
 
-<div class="card">
-  <div class="card-header">
+<div class="card border-success">
+  <div class="card-header text-white bg-success">
     Quick Links
   </div>
   <div class="card-body">
@@ -61,7 +61,8 @@ active: home
 <!-- /////////// -->
 
 <a name="course_info"></a>
-<div class="card">
+
+<div class="card border-info">
   <div class="card-header text-white bg-info">
     Course Info
   </div>
@@ -83,12 +84,12 @@ active: home
   <a name="week_{{ week.number }}"></a>
   <h2 class="week-label">{{ week.name }}</h2>
 
-{% capture week_class %}{% cycle 'bg-primary', 'bg-secondary' %}{% endcapture %}
+{% capture week_class %}{% cycle 'primary', 'secondary' %}{% endcapture %}
 
 {% for day in week.days %}
 
-  <div class="card">
-    <div class="card-header text-white {{ week_class }}">
+  <div class="card border-{{ week_class }}">
+    <div class="card-header text-white bg-{{ week_class }}">
       {{ day.name }}
     </div>
     <div class="card-body">
