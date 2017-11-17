@@ -16,6 +16,7 @@ auto-title: true
 ## Theory References
 
 - [Blinn-Phong Reflectance Model](blinnphongreflectance)
+- [Cook-Torrance Reflectance Model](cook-torrance)
 
 
 ## OpenGL Examples
