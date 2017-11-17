@@ -19,15 +19,15 @@ active: home
 
     <p>
       We meet from
-        <span class="text-success">{{ site.data.course.meetings.lecture.when }}</span>
+        <strong><span class="text-primary">{{ site.data.course.meetings.lecture.when }}</span></strong>
 {% if site.data.course.meetings.lecture.in %}
-        in <span class="text-info">{{ site.data.course.meetings.lecture.in }}</span>.
+        in <strong><span class="text-secondary">{{ site.data.course.meetings.lecture.in }}</span></strong>.
 {% endif %}
 
         and from
-        <span class="text-success">{{ site.data.course.meetings.lab.when }}</span>
+        <strong><span class="text-primary">{{ site.data.course.meetings.lab.when }}</span></strong>
 {% if site.data.course.meetings.lab.in %}
-        in <span class="text-info">{{ site.data.course.meetings.lab.in }}</span>.
+        in <strong><span class="text-secondary">{{ site.data.course.meetings.lab.in }}</span></strong>.
 {% endif %}
     </p>
 
