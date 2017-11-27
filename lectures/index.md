@@ -29,3 +29,4 @@ title: "Lectures"
 - [20 - Framebuffers](20-framebuffers)
 - [21 - Texture Filtering](21-texture-filtering)
 - [22 - Interpolation](22-interpolation)
+- [23 - C++ 2](23-cpp-2)

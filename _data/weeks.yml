@@ -244,12 +244,13 @@
 
   - name: Monday 11/27
     lecture:
-      - text: Clipping, Culling, & Hidden Surface Removal
+      - text: C++ 2
+        link: /lectures/23-cpp-2
 
   - name: Wednesday 11/29
     lecture:
+      - text: Clipping, Culling, & Hidden Surface Removal
       - text: Midterm Review
-        text: C++ 2
 
 
   - name: Friday 12/1
