@@ -250,6 +250,7 @@
   - name: Wednesday 11/29
     lecture:
       - text: Clipping, Culling, & Hidden Surface Removal
+        link: /lectures/24-clipping-culling
       - text: Midterm Review
 
 
