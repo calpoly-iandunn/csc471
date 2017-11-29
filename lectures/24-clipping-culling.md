@@ -46,6 +46,8 @@ This may involve creating additional triangles.
 
 {% include image-block.html file="24-figure-clip-algorithm.png" alt="Polygon clipping algorithm" %}
 
+[Further information can be found here.](https://www.khronos.org/opengl/wiki/Vertex_Post-Processing#Clipping)
+
 
 
 Culling
@@ -66,6 +68,8 @@ Such faces can be removed by checking the "winding order" of all triangles.
 By default, OpenGL expects counter-clockwise winding order for triangles that are facing forwards.
 With backface culling enabled, triangles facing the other direction will be automatically culled.
 This occurs before rasterization.
+
+[Further information can be found here.](https://www.khronos.org/opengl/wiki/Face_Culling)
 
 
 ### Other Culling Techniques
