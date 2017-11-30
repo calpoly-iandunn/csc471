@@ -23,6 +23,14 @@ The following examples should help guide your studies, but actual question forma
 
 
 
+## Prior Exams
+
+- [Prior Take-Home Exam - Winter 2017](midterm2_HW17.pdf)
+- [Prior Take-Home Exam - Winter 2016](midterm2_HW16.pdf)
+- [Prior Exam - Winter 2014](midterm2_W14.pdf)
+
+
+
 ## Sample questions or thought exercises:
 
 ### Illumination (21 pts)
