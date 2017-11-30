@@ -61,10 +61,21 @@ The following formats are acceptable:
 
 ## Project
 
-Please note that you will need to submit the source code, executable, and relevant data related to your final project to Github Classroom before the scheduled final time.
-In addition, you will need to submit a webpage documenting your project (include project description, results images, and references on the webpage).
-All of these will be due the day of the final project presentations and will be turned in via Github Classroom.
 You will be doing an in class 5 minute presentation of your project – demonstrating the accomplishments of your project to your peers and the professor.
+Please note that you will need to submit the source code, executable, and relevant data related to your final project to Github Classroom before the scheduled final time.
+
+In addition, you will need to submit a webpage documenting your project (include project description, results images, and references on the webpage).
+The website will be due by Friday of finals week and will be turned in via Github Classroom.
+
+Your final project can be in one of the following formats:
+
+- `.html` and `.css`
+- A [jekyll](https://jekyllrb.com/) site that can be deployed to [github-pages](https://pages.github.com/)
+
+Note that if you turn in simply github-flavored markdown files (different from a jekyll site),
+I will not be able to render it nicely (it will be unstyled Times New Roman on a white background).
+
+---
 
 Projects will be classified as: easy, medium or hard.
 An easy project can earn at most 90 points, a medium project can earn at most 100 points, a hard project can earn 110 points.
@@ -78,3 +89,5 @@ General point break down:
 ### Hand-In
 
 [Submit your final project code via GitHub Classroom at this link.](https://classroom.github.com/a/xgcY92-a)
+
+[Submit your final project website via GitHub Classroom at this link.](https://classroom.github.com/a/_61r38ru)
