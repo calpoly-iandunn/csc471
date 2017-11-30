@@ -22,6 +22,7 @@ auto-title: true
 ## OpenGL Examples
 
 - [Minimal OpenGL Example](minimal-opengl)
+- [Camera Controls](camera-controls)
 
 
 ## Exams
