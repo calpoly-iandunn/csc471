@@ -191,7 +191,7 @@
   - name: Monday 11/6
     lecture:
       - text: Final Project Grab Bag
-        outbound: https://drive.google.com/open?id=1Qkcfy328nOsn2LFyM0ba2NaI1Ri0lCPSIAymPs29xL4
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Wednesday 11/8
