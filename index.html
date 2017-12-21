@@ -88,15 +88,19 @@ active: home
 
 {% for day in week.days %}
 
-  <div class="card border-{{ week_class }}">
+  <div class="card day-card border-{{ week_class }}">
     <div class="card-header text-white bg-{{ week_class }}">
       {{ day.name }}
     </div>
     <div class="card-body">
 {% if day.override %}
       <div class="row">
-        <div class="col-xs-12">
-          <p>{{ day.override }}</p>
+        <div class="col-sm-12">
+          <div class="card border-{{ week_class }}">
+            <div class="card-body">
+              <p>{{ day.override }}</p>
+            </div>
+          </div>
         </div>
       </div>
 {% else %}
