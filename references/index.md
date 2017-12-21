@@ -16,16 +16,19 @@ auto-title: true
 ## Theory References
 
 - [Blinn-Phong Reflectance Model](blinnphongreflectance)
+- [Cook-Torrance Reflectance Model](cook-torrance)
 
 
 ## OpenGL Examples
 
 - [Minimal OpenGL Example](minimal-opengl)
+- [Camera Controls](camera-controls)
 
 
 ## Exams
 
 - [Midterm 1 Guide](midterm-1-guide)
+- [Midterm 2 Guide](midterm-2-guide)
 
 
 ## External References

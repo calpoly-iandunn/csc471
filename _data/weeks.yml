@@ -166,17 +166,20 @@
 
   - name: Monday 10/30
     lecture:
-      - text: Textures 1
+      - text: Textures
+        link: /lectures/19-textures
 
 
   - name: Wednesday 11/1
     lecture:
-      - text: Textures 2
+      - text: Textures, cont.
+        link: /lectures/19-textures
 
 
   - name: Friday 11/3
     lecture:
       - text: Framebuffers
+        link: /lectures/20-framebuffers
 
 
 ###############################################################################
@@ -188,16 +191,19 @@
   - name: Monday 11/6
     lecture:
       - text: Final Project Grab Bag
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Wednesday 11/8
     lecture:
-      - text: Geometry and Animation 1
+      - text: Texture Filtering
+        link: /lectures/21-texture-filtering
+      - text: Shadow Maps
+        outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
 
 
   - name: Friday 11/10
-    lecture:
-      - text: Geometry and Animation 2
+    override: Holiday - Veterans Day Observed
 
 
 ###############################################################################
@@ -208,16 +214,27 @@
 
   - name: Monday 11/13
     lecture:
-      - text: Clipping, Culling, & Hidden Surface Removal
+      - text: Deferred Shading
+        outbound: https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8
 
 
   - name: Wednesday 11/15
     lecture:
-      - text: Catchup Day
+      - text: Ambient Occlusion
+        outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
+      - text: Physically-Based Rendering
+        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
+      - text: Particle Systems
+        outbound: https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM
 
 
   - name: Friday 11/17
-    override: Holiday - Veterans Day
+    lecture:
+      - text: Interpolation and Splines
+        link: /lectures/22-interpolation
+      - text: Collision Detection
+        outbound: https://drive.google.com/open?id=161wuu9Nu_dp425D9f3v-QfF6Eqcv6cBlKwg3dQQs7Mk
+
 
 ###############################################################################
 
@@ -227,11 +244,13 @@
 
   - name: Monday 11/27
     lecture:
-      - text: Catchup Day
-
+      - text: C++ 2
+        link: /lectures/23-cpp-2
 
   - name: Wednesday 11/29
     lecture:
+      - text: Clipping, Culling, & Hidden Surface Removal
+        link: /lectures/24-clipping-culling
       - text: Midterm Review
 
 
@@ -245,7 +264,7 @@
 - number: 11
   name: Finals Week
   days:
-  - name: "Final Exam - ??? 12/? @ ???"
-    override: "Final Project Demos"
+  - name: "Final - Monday 12/4 @ 4:10pm - 7:00pm"
+    override: "Final Project Demos (verify with published final exam schedule)"
 
 ###############################################################################

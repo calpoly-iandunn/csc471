@@ -1,0 +1,22 @@
+<svg width="450" height="300" viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg">
+
+  <line x1="5" y1="290" x2="445" y2="290" stroke-width="3" stroke="black"/>
+
+  <polyline points="150 290 150 100" marker-end="url(#triangle)" stroke="black" stroke-width="5"/>
+  <polyline points="150 290 350 100" marker-end="url(#triangle)" stroke="black" stroke-width="5"/>
+
+  <text x="120" y="150" font-family="Courier" font-size="26">n</text>
+  <text x="250" y="150" font-family="Courier" font-size="26">l</text>
+
+  <path fill="none" stroke="black" stroke-width="3" d="m375,40 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"/>
+
+  <marker id="triangle"
+    viewBox="0 0 10 10" refX="0" refY="5"
+    markerUnits="strokeWidth"
+    markerWidth="4" markerHeight="3"
+    orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+
+
+</svg>

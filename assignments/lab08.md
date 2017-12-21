@@ -63,7 +63,7 @@ Given a pitch and yaw angle, you can compute the 'look at' location by:
 ```cpp
 x = radius*cos(phi)*cos(theta)
 y = radius*sin(phi)
-z = radius*cos(phi)*cos(PI - theta)
+z = radius*cos(phi)*sin(theta)
 ```
 
 Please carefully think about what `phi` and `theta` should start out as,

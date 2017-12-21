@@ -69,8 +69,26 @@ lab08:
   type:     lab
   individual: true
   assigned: Monday 10/30
-  due:      Friday 11/3
+  due:      Monday 11/6
   basecode: https://github.com/calpoly-csc471/lab08
+
+lab09:
+  title:      Lab 9
+  subtitle:   "Texture Mapping"
+  type:       lab
+  individual: true
+  assigned:   Wednesday 11/8
+  due:        Wednesday 11/15
+  basecode:   https://github.com/calpoly-csc471/lab09
+
+lab10:
+  title:      Lab 10
+  subtitle:   "Particle Systems"
+  type:       lab
+  individual: true
+  assigned:   Wednesday 11/15
+  due:        Wednesday 11/29
+  basecode:   https://github.com/calpoly-csc471/lab10
 
 
 
@@ -120,6 +138,6 @@ program04:
   subtitle: World
   type:     program
   individual: true
-  assigned: TBA
-  due:      TBA
+  assigned: Friday 11/3
+  due:      Monday 11/13
   github:   https://classroom.github.com/a/7w82Glxc
