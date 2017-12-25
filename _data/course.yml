@@ -36,7 +36,8 @@ schedule_columns:
 
 meetings:
   lecture:
-    when: "4:10pm - 5:00pm"
+    when: "12:10pm - 1:00pm"
+    in: 20-128
   lab:
-    when: "5:10pm - 6:00pm"
+    when: "1:10pm - 2:00pm"
     in: 14-255
