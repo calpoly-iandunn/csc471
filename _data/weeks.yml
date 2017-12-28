@@ -4,10 +4,6 @@
   name: Week 0
   days:
 
-  - name: Friday 9/15
-    lecture:
-      - text: Introduction
-        outbound: https://docs.google.com/presentation/d/1D_htUiKc0UhsAPWfNC6GqLFaIGWDT9Q0uGryFbODB9s/edit?usp=sharing
 
 ###############################################################################
 
@@ -15,7 +11,13 @@
   name: Week 1
   days:
 
-  - name: Monday 9/18
+  - name: Monday 1/8
+    lecture:
+      - text: Introduction
+        outbound: https://docs.google.com/presentation/d/1D_htUiKc0UhsAPWfNC6GqLFaIGWDT9Q0uGryFbODB9s/edit?usp=sharing
+
+
+  - name: Wednesday 1/10
     lecture:
       - text: The Graphics Pipeline
         link: /lectures/01-graphics-pipeline
@@ -24,17 +26,13 @@
       - text: Meshes
         link: /lectures/04-meshes
 
-  - name: Wednesday 9/20
+
+  - name: Friday 1/12
     lecture:
       - text: Barycentric Coordinates
         link: /lectures/03-barycentric-coordinates
 
-  - name: Friday 9/22
-    lecture:
-      - text: Vectors
-        link: /lectures/05-vectors
-      - text: Matrices
-        link: /lectures/06-matrices
+
 
 ###############################################################################
 
@@ -42,24 +40,26 @@
   name: Week 2
   days:
 
-  - name: Monday 9/25
+  - name: Monday 1/15
+    override: Holiday - Martin Luther King, Jr.'s Birthday Observed
+
+
+  - name: Wednesday 1/17
+    lecture:
+      - text: Vectors
+        link: /lectures/05-vectors
+      - text: Matrices
+        link: /lectures/06-matrices
+
+
+  - name: Friday 1/19
     lecture:
       - text: Matrix Operations
         link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
         link: /lectures/08-transformations
 
-  - name: Wednesday 9/27
-    lecture:
-      - text: OpenGL Slides
-        outbound: https://drive.google.com/open?id=1lkJPaZ1r3P7icS2PTofbAwUzKopQNkjBSPem1e-Qdn8
-      - text: OpenGL Introduction
-        link: /lectures/09-opengl-intro
 
-  - name: Friday 9/29
-    lecture:
-      - text: OpenGL Pipeline 1
-        link: /lectures/10-opengl-pipeline-1
 
 ###############################################################################
 
@@ -67,22 +67,25 @@
   name: Week 3
   days:
 
-  - name: Monday 10/2
+  - name: Monday 1/22
+    lecture:
+      - text: OpenGL Slides
+        outbound: https://drive.google.com/open?id=1lkJPaZ1r3P7icS2PTofbAwUzKopQNkjBSPem1e-Qdn8
+      - text: OpenGL Introduction
+        link: /lectures/09-opengl-intro
+
+
+  - name: Wednesday 1/24
+    lecture:
+      - text: OpenGL Pipeline 1
+        link: /lectures/10-opengl-pipeline-1
+
+
+  - name: Friday 1/26
     lecture:
       - text: OpenGL Pipeline 2
         link: /lectures/11-opengl-pipeline-2
 
-
-  - name: Wednesday 10/4
-    lecture:
-      - text: Geometric Transforms
-        link: /lectures/12-geometric-transforms
-
-
-  - name: Friday 10/6
-    lecture:
-      - text: Hierarchical Transforms
-        link: /lectures/13-hierarchical-modeling
 
 
 ###############################################################################
@@ -91,22 +94,23 @@
   name: Week 4
   days:
 
-  - name: Monday 10/9
+  - name: Monday 1/29
+    lecture:
+      - text: Geometric Transforms
+        link: /lectures/12-geometric-transforms
+
+
+  - name: Wednesday 1/31
+    lecture:
+      - text: Hierarchical Transforms
+        link: /lectures/13-hierarchical-modeling
+
+
+  - name: Friday 2/2
     lecture:
       - text: C++ 1
         link: /lectures/14-cpp-1
 
-
-  - name: Wednesday 10/11
-    lecture:
-      - text: Midterm Review
-        link: /references/midterm-1-guide
-      - text: Lines and Planes
-        link: /lectures/03-lines-and-planes
-
-  - name: Friday 10/13
-    lecture:
-      - text: Midterm 1
 
 
 ###############################################################################
@@ -115,22 +119,24 @@
   name: Week 5
   days:
 
-  - name: Monday 10/16
+  - name: Monday 2/5
+    lecture:
+      - text: Midterm Review
+        link: /references/midterm-1-guide
+      - text: Lines and Planes
+        link: /lectures/03-lines-and-planes
+
+
+  - name: Wednesday 2/7
+    lecture:
+      - text: Midterm 1
+
+
+  - name: Friday 2/9
     lecture:
       - text: "Lighting and Shading 1: Color and Vision"
         link: /lectures/15-lighting-1
 
-
-  - name: Wednesday 10/18
-    lecture:
-      - text: "Lighting and Shading 2: Reflectance Modeling"
-        link: /lectures/16-lighting-2
-
-
-  - name: Friday 10/20
-    lecture:
-      - text: "Lighting and Shading 3: Details and Wrapup"
-        link: /lectures/17-lighting-3
 
 
 ###############################################################################
@@ -139,23 +145,23 @@
   name: Week 6
   days:
 
-  - name: Monday 10/23
+  - name: Monday 2/12
+    lecture:
+      - text: "Lighting and Shading 2: Reflectance Modeling"
+        link: /lectures/16-lighting-2
+
+
+  - name: Wednesday 2/14
+    lecture:
+      - text: "Lighting and Shading 3: Details and Wrapup"
+        link: /lectures/17-lighting-3
+
+
+  - name: Friday 2/16
     lecture:
       - text: Viewing Transforms
         outbound: https://drive.google.com/open?id=1R0QmszzQjm9I5314RuAS_HGOBDGeuN4rApy5wEi14tY
 
-
-  - name: Wednesday 10/25
-    lecture:
-      - text: Guest Speaker (Erik from Altair)
-        outbound: http://www.altair.com/
-      - text: Lookat Matrix Formulation
-        link: /lectures/18-lookat-matrix
-
-
-  - name: Friday 10/27
-    lecture:
-      - text: Projection Transforms
 
 
 ###############################################################################
@@ -164,22 +170,22 @@
   name: Week 7
   days:
 
-  - name: Monday 10/30
+  - name: Tuesday 2/20
+    lecture:
+      - text: Lookat Matrix Formulation
+        link: /lectures/18-lookat-matrix
+
+
+  - name: Wednesday 2/21
+    lecture:
+      - text: Projection Transforms
+
+
+  - name: Friday 2/23
     lecture:
       - text: Textures
         link: /lectures/19-textures
 
-
-  - name: Wednesday 11/1
-    lecture:
-      - text: Textures, cont.
-        link: /lectures/19-textures
-
-
-  - name: Friday 11/3
-    lecture:
-      - text: Framebuffers
-        link: /lectures/20-framebuffers
 
 
 ###############################################################################
@@ -188,22 +194,23 @@
   name: Week 8
   days:
 
-  - name: Monday 11/6
+  - name: Monday 2/26
+    lecture:
+      - text: Textures, cont.
+        link: /lectures/19-textures
+
+
+  - name: Wednesday 2/28
+    lecture:
+      - text: Framebuffers
+        link: /lectures/20-framebuffers
+
+
+  - name: Friday 3/2
     lecture:
       - text: Final Project Grab Bag
         link: /lectures/25-final-project-grab-bag
 
-
-  - name: Wednesday 11/8
-    lecture:
-      - text: Texture Filtering
-        link: /lectures/21-texture-filtering
-      - text: Shadow Maps
-        outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
-
-
-  - name: Friday 11/10
-    override: Holiday - Veterans Day Observed
 
 
 ###############################################################################
@@ -212,13 +219,21 @@
   name: Week 9
   days:
 
-  - name: Monday 11/13
+  - name: Monday 3/5
+    lecture:
+      - text: Texture Filtering
+        link: /lectures/21-texture-filtering
+      - text: Shadow Maps
+        outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
+
+
+  - name: Wednesday 3/7
     lecture:
       - text: Deferred Shading
         outbound: https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8
 
 
-  - name: Wednesday 11/15
+  - name: Friday 3/9
     lecture:
       - text: Ambient Occlusion
         outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
@@ -228,13 +243,6 @@
         outbound: https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM
 
 
-  - name: Friday 11/17
-    lecture:
-      - text: Interpolation and Splines
-        link: /lectures/22-interpolation
-      - text: Collision Detection
-        outbound: https://drive.google.com/open?id=161wuu9Nu_dp425D9f3v-QfF6Eqcv6cBlKwg3dQQs7Mk
-
 
 ###############################################################################
 
@@ -242,19 +250,24 @@
   name: Week 10
   days:
 
-  - name: Monday 11/27
+  - name: Monday 3/12
     lecture:
+      - text: Interpolation and Splines
+        link: /lectures/22-interpolation
+      - text: Collision Detection
+        outbound: https://drive.google.com/open?id=161wuu9Nu_dp425D9f3v-QfF6Eqcv6cBlKwg3dQQs7Mk
       - text: C++ 2
         link: /lectures/23-cpp-2
 
-  - name: Wednesday 11/29
+
+  - name: Wednesday 3/14
     lecture:
       - text: Clipping, Culling, & Hidden Surface Removal
         link: /lectures/24-clipping-culling
       - text: Midterm Review
 
 
-  - name: Friday 12/1
+  - name: Friday 3/16
     lecture:
       - text: Midterm 2
 
@@ -264,7 +277,9 @@
 - number: 11
   name: Finals Week
   days:
-  - name: "Final - Monday 12/4 @ 4:10pm - 7:00pm"
+  - name: "Final - Friday 3/23 @ 10:10am - 1:00pm"
     override: "Final Project Demos (verify with published final exam schedule)"
+
+
 
 ###############################################################################
