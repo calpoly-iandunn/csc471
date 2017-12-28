@@ -12,8 +12,8 @@ title: Syllabus
 * **Office Hours:** MW 3:10pm - 4:00pm and F 2:10pm - 3:00pm
 * **Email:** idunn01@calpoly.edu
 * **Schedule:**
-  * Lecture: MWF 4:10pm - 5:00pm (14-255)
-  * Lab: MWF 5:10pm - 6:00pm (14-255)
+  * Lecture: MWF {{ site.data.course.meetings.lecture.when }} ({{ site.data.course.meetings.lecture.in }})
+  * Lab: MWF {{ site.data.course.meetings.lab.when }} ({{ site.data.course.meetings.lab.in }})
 * **Website:** [https://iondune.github.io/csc471/](https://iondune.github.io/csc471/)
 
 ## Overview
@@ -53,6 +53,7 @@ along with being willing to experiment and learn on your own to create interesti
 * Practice translating mathematics into C/C++ programs
 
 ### Final grade breakdown:
+
 * 10%: 10 Lab exercises
 * 45%: 4-6 Programming assignments
 * 20%: 2 midterms
@@ -60,37 +61,64 @@ along with being willing to experiment and learn on your own to create interesti
   * project must be approved by the instructor (details to follow)
 * 5%: Participation and in class quizzes
 
+Your latest grade information will always be available on PolyLearn,
+which should have the above weighting implemented.
+
 
 ## Course Details
 
 ### Labs:
-Each lab exercise is due within two lab sessions.
-For example, if a lab is assigned on Tuesday, it must be completed by the end of Thursday’s lab.
+
+Each lab exercise is typically due within three lab sessions, but the due date for each assignment is posted on the schedule.
+For example, typically if a lab is assigned on Monday, it must be completed by the end of Friday's lab.
 Labs must be checked off by me or the TA during the lab unless you have my prior permission.
 
+Labs can be turned in one **course day** late for 70% credit.
+So if a lab is due on Friday, it can be turned in on Monday for a maximum of 70%.
+
+Labs can also be turned in two **course days** late for a maximum of 30% credit.
+After that, late labs will not be accepted.
+
 ### Assignments:
-There will be 4-5 substantial individual programming assignments.
+
+There will be 5 substantial individual programming assignments.
 If your program is late you will lose 20% within first 24 hours after deadline, 40% within 48 hours, 100% after 48 hours.
 However, you get 2 *free* days for the entire quarter which can be applied to the four programming assignments only.
-You do not need to explain why you are using the days—these two late days will be automatically applied to any late assignments.
+You do not need to explain why you are using the days - these two late days will be automatically applied to any late assignments.
 After your two late days have been used up, the late penalties apply.
 
+Late days are to be used for any and all reasons you might need to turn in an assignment late, including job interviews and travel.
+
 ### Midterms:
-There will be 2 written midterms.
-You may bring a double-sided sheet of hand-written notes.
+
+There will be 2 written midterm exams.
+You may bring a double-sided sheet of hand-written notes to both midterms.
+
+In an attempt to make the exam grading process more transparent and fair, and to simply reduce the grading work,
+I will be using gradescope to grade your midterm exams.
+Once exams are graded you can review the results, including the problem rubric, by logging in to gradescope.
+
+If for whatever reason you don't want to sign up in order to view your exam,
+just let me know via email and I'll generate a PDF copy with your results.
 
 ### Project:
+
 You will get roughly 3 weeks at the end of the quarter to work on the final project.
-You may use any code base for the project, including mobile and web-based.
 
 ### Recommended (optional) texts:
-Please consider *Fundamentals of Computer Graphics* by P. Shirley or
-*Foundations of 3D Computer Graphics* by S. Gortler.
+
+Please consider *Fundamentals of Computer Graphics* by P. Shirley or *Foundations of 3D Computer Graphics* by S. Gortler.
 For a reference for modern graphics programming:
 *OpenGL ES 3.0 Programming Guide* by D. Ginsburg, et. al.
-There are also numerous helpful tutorial sites for example: [http://learnopengl.com/](http://learnopengl.com/)
+
+There are also numerous helpful tutorial sites for example:
+
+- [http://learnopengl.com/](http://learnopengl.com/)
+- [http://ogldev.atspace.co.uk/](http://ogldev.atspace.co.uk/)
+- [http://www.opengl-tutorial.org/](http://www.opengl-tutorial.org/)
 
 ### Participation:
+
 I expect you to participate in class and engage with the class material
 (studies suggest that taking longhand notes is one of the better ways to guarantee your engagement with the material in class) **[1]**.
 I also expect you to form a community of scholars for the duration of the quarter (and hopefully longer).
@@ -99,14 +127,15 @@ Laptops have been shown to be distracting in lecture **[3]** and are not allowed
 There also might be random pop quizzes during the class as a part of participation.
 
 ### Honesty:
+
 Although I encourage you to have lively discussions with one another, _all work you hand in must be your own work_.
 If your program or parts of your program are plagiarized from another student or unapproved sources including tutorials,
 you will fail the course and a letter will be put in your file with Cal Poly Judicial Affairs.
 Note some old tutorials do not use modern graphics &mdash; if you use them, this can result in problems.
-You can talk to one another about your solutions and you may look at another student’s code that has a bug (I encourage you to help each other with de-bugging),
-but you cannot look at someone else’s working code.
+You can talk to one another about your solutions and you may look at another student's code that has a bug (I encourage you to help each other with de-bugging),
+but you cannot look at someone else's working code.
 
-Note that I expect your OpenGL code to conform to at least OpenGL 3.0 standards (sometimes referred to as "modern graphics") &mdash;
+Note that I expect your OpenGL code to conform to at least OpenGL 3.0 standards (sometimes referred to as "modern graphics") -
 some specifics include no use of immediate mode for rendering and no OpenGL matrix stack calls (instead we will be using glm for a matrix library)
 and all shading will be computed using GLSL shaders.
 Your code must compile and run on the machines in the CSL.
