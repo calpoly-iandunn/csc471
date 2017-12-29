@@ -180,8 +180,3 @@ DrawFlower();
 ![figure-04](midterm-1-figure-4.png)
 
 ![figure-05](midterm-1-figure-5.png)
-
-## Prior Exam
-
-[Prior Exam - Winter 2017](midterm1_W17.pdf) is posted.
-
