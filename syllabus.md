@@ -89,6 +89,8 @@ After your two late days have been used up, the late penalties apply.
 
 Late days are to be used for any and all reasons you might need to turn in an assignment late, including job interviews and travel.
 
+Assignments will be turned in using GitHub Classroom.
+
 ### Midterms:
 
 There will be 2 written midterm exams.
