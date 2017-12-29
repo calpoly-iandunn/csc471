@@ -14,7 +14,7 @@
   - name: Monday 1/8
     lecture:
       - text: Introduction
-        outbound: https://docs.google.com/presentation/d/1D_htUiKc0UhsAPWfNC6GqLFaIGWDT9Q0uGryFbODB9s/edit?usp=sharing
+        link: /lectures/00-introduction
 
 
   - name: Wednesday 1/10
