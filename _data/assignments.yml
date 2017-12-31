@@ -8,8 +8,8 @@ lab01:
   subtitle: "Software Rasterizer: Bounding Box"
   type:     lab
   individual: true
-  assigned: Friday 9/15
-  due:      Wednesday 9/20
+  assigned: Monday 1/8
+  due:      Friday 1/12
   basecode: https://github.com/calpoly-csc471/lab01
 
 lab02:
@@ -17,16 +17,16 @@ lab02:
   subtitle: "Software Rasterizer: Single Triangle"
   type:     lab
   individual: true
-  assigned: Monday 9/18
-  due:      Monday 9/25
+  assigned: Wednesday 1/10
+  due:      Wednesday 1/17
 
 lab03:
   title:    Lab 3
   subtitle: "Intro to OpenGL"
   type:     lab
   individual: true
-  assigned: Wednesday 9/27
-  due:      Monday 10/2
+  assigned: Monday 1/22
+  due:      Friday 1/26
   basecode: https://github.com/calpoly-csc471/lab03
 
 lab04:
@@ -34,16 +34,16 @@ lab04:
   subtitle: "Shader Practice"
   type:     lab
   individual: true
-  assigned: Monday 10/2
-  due:      Friday 10/6
+  assigned: Wednesday 1/24
+  due:      Monday 1/29
 
 lab05:
   title:    Lab 5
   subtitle: "Transformation Matrices"
   type:     lab
   individual: true
-  assigned: Monday 10/9
-  due:      Friday 10/13
+  assigned: Monday 1/29
+  due:      Monday 2/5
   basecode: https://github.com/calpoly-csc471/lab05
 
 lab06:
@@ -51,8 +51,8 @@ lab06:
   subtitle: "Hierarchical Modeling"
   type:     lab
   individual: true
-  assigned: Monday 10/16
-  due:      Friday 10/20
+  assigned: Monday 2/7
+  due:      Monday 2/12
   basecode: https://github.com/calpoly-csc471/lab06
 
 lab07:
@@ -60,16 +60,16 @@ lab07:
   subtitle: "Diffuse Lighting"
   type:     lab
   individual: true
-  assigned: Monday 10/23
-  due:      Friday 10/27
+  assigned: Tuesday 2/20
+  due:      Friday 2/23
 
 lab08:
   title:    Lab 8
   subtitle: "Pitch and Yaw Camera"
   type:     lab
   individual: true
-  assigned: Monday 10/30
-  due:      Monday 11/6
+  assigned: Monday 2/26
+  due:      Friday 3/2
   basecode: https://github.com/calpoly-csc471/lab08
 
 lab09:
@@ -77,8 +77,8 @@ lab09:
   subtitle:   "Texture Mapping"
   type:       lab
   individual: true
-  assigned:   Wednesday 11/8
-  due:        Wednesday 11/15
+  assigned:   Monday 3/5
+  due:        Friday 3/9
   basecode:   https://github.com/calpoly-csc471/lab09
 
 lab10:
@@ -86,8 +86,8 @@ lab10:
   subtitle:   "Particle Systems"
   type:       lab
   individual: true
-  assigned:   Wednesday 11/15
-  due:        Wednesday 11/29
+  assigned:   Wednesday 3/7
+  due:        Wednesday 3/14
   basecode:   https://github.com/calpoly-csc471/lab10
 
 
@@ -101,8 +101,8 @@ program01:
   subtitle: Software Rasterization of Triangle Meshes
   type:     program
   individual: true
-  assigned: Monday 9/18
-  due:      Thursday 9/28
+  assigned: Friday 1/12
+  due:      Sunday 1/21
   github:   https://classroom.github.com/a/RAeEAiIl
   basecode: https://github.com/calpoly-csc471/program01
 
@@ -111,8 +111,8 @@ program02a:
   subtitle: Dancing Sun
   type:     program
   individual: true
-  assigned: Wednesday 9/27
-  due:      Saturday 10/7
+  assigned: Friday 1/26
+  due:      Friday 2/2
   github:   https://classroom.github.com/a/nWvfuZvX
 
 program02b:
@@ -120,8 +120,8 @@ program02b:
   subtitle: Snow Globe
   type:     program
   individual: true
-  assigned: Monday 10/9
-  due:      Wednesday 10/18
+  assigned: Friday 2/2
+  due:      Sunday 2/11
   github:   https://classroom.github.com/a/RqE3RBqv
 
 program03:
@@ -129,8 +129,8 @@ program03:
   subtitle: Lighting
   type:     program
   individual: true
-  assigned: Wednesday 10/25
-  due:      Wednesday 11/1
+  assigned: Monday 2/12
+  due:      Monday 2/20
   github:   https://classroom.github.com/a/1qRb75Zg
 
 program04:
@@ -138,6 +138,6 @@ program04:
   subtitle: World
   type:     program
   individual: true
-  assigned: Friday 11/3
-  due:      Monday 11/13
+  assigned: Monday 2/26
+  due:      Monday 3/5
   github:   https://classroom.github.com/a/7w82Glxc
