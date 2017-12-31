@@ -23,6 +23,10 @@ tabs:
     title: Syllabus
     link: /syllabus.html
 
+  - name: calendar
+    title: Calendar
+    link: /calendar.html
+
 links:
   - title: PolyLearn
     link: "#"
