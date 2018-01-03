@@ -6,10 +6,6 @@ title: "Assignments"
 
 # {{ page.title }}
 
-## Final Project
-
-[Final Project due at scheduled final exam time](final)
-
 ## Labs
 
 {% for pair in site.data.assignments %}
@@ -32,4 +28,9 @@ title: "Assignments"
 - [{{ assignment.title }} - {{ assignment.subtitle }}]({{ name }}) due {{ assignment.due }}
   {% endif %}
 {% endfor %}
+
+
+## Final Project
+
+[Final Project](final) due at scheduled final exam time
 
