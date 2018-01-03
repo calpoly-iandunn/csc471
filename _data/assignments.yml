@@ -8,7 +8,7 @@ lab01:
   type:     lab
   individual: true
   assigned: Monday 1/8
-  due:      Friday 1/12
+  due:      Wednesday 1/10
   basecode: https://github.com/calpoly-csc471/lab01
 
 lab02:

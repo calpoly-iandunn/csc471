@@ -9,7 +9,7 @@ title: Lab 2
 
 ## Overview and Context
 
-For your first assignment, you will be writing a program to render (draw) an indexed face set (aka polygonal mesh of triangles) as an image via software rasterization.
+For your first assignment, you will be writing a program to render (draw) an indexed face set (a.k.a. polygonal mesh of triangles) as an image via software rasterization.
 We are continuing to build some basic tools for the assignment.
 
 ### Goals for Today's Lab
