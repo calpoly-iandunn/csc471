@@ -9,8 +9,9 @@ title: Lab 1
 
 ## Overview and Context
 
-Over the next 2 weeks, we will be writing a program to render (draw) an indexed face set (aka polygonal mesh of triangles) as an image via software rasterization
-(i.e. the code will be entirely written in C/C++ with no graphic libraries. The software will render a static scene).
+Over the next 2 weeks, we will be writing a program to render (draw) an indexed face set (a.k.a. polygonal mesh of triangles)
+as an image via software rasterization (i.e. the code will be entirely written in C/C++ with no graphic libraries.
+The software will render a static scene).
 In general the required steps for the program will be:
 
 - Read in triangles.
@@ -58,7 +59,7 @@ Starting with the provided code, make the list of command line arguments take th
 - Vertex 3 x-coord
 - Vertex 3 y-coord
 
-**Usage:** `Lab01 filename width height vax vay vbx vby vcx vcy`
+**Usage:** `./Lab01 filename width height vax vay vbx vby vcx vcy`
 
 Thus for example – a valid program execution would look like:
 
@@ -67,15 +68,16 @@ Thus for example – a valid program execution would look like:
 ```
 
 For today only, we will assume the triangle's vertices are in "window coordinates."
-In other words, the data values are integer values that range from 0 to the value of width-1 of the window/image (or 0 to the height-1 value of the window/image).
+In other words, the data values are integer values that range from `0` to the value of `width - 1` of the window/image (or `0` to the `height - 1` value of the window/image).
 You may choose to have the vertices be 2D (although for the Assignment 1, they will need to be 3D).
 You will need to design a data structure to represent the triangle and its vertices.
 
-Draw the three vertices into the image, using three calls to image->setPixel().
+Draw the three vertices into the image, using three calls to `image->setPixel()`.
 
 The bounding box of the triangle is the box with the extents that will exactly bound that triangle.
 You will need to design a data structure to represent the bounding box.
-At minimum such a structure needs xmin, xmax, ymin, ymax. Using the provided image code, modify the color of all the pixels in the bounding box to be a color of your choice (which is different then the background).
+At minimum such a structure needs `xmin`, `xmax`, `ymin`, `ymax`.
+Using the provided image code, modify the color of all the pixels in the bounding box to be a color of your choice (which is different from the background).
 
 You can also try a pattern based on the row and/or column.
 The three vertices and the bounding box should look something like this:
