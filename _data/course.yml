@@ -30,8 +30,6 @@ tabs:
 links:
   - title: PolyLearn
     link: "#"
-  - title: GitHub
-    link: https://classroom.github.com/classrooms/31339494-csc-471-introduction-to-computer-graphics-fall-2017
 
 schedule_columns:
   - name: lecture
