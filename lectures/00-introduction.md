@@ -11,9 +11,44 @@ auto-title: true
 
 - About The Class
   - Syllabus
+    - GradeScope
+  - Website overview
   - Communication and questions
   - GitHub Classroom
     - Git usage
   - Deadlines and late penalties
 
+GPU vs. CPU
+
+- Assignments
+  - Labs
+    - Smaller assignments, checked off in lab
+    - Sometimes build pieces for assignments
+  - Programs
+    - Larger assignments, turned in via GitHub Classroom
+
+- Subject Matter
+  - We will be learning and using C++
+  - We will be learning and using OpenGL
+  - We will be using Git to turn things in
+
+- Units
+  - Introduction
+    - Build a software rasterizer
+    - Start talking about transformations
+    - Start talking about geometry and representations
+  - OpenGL
+    - How to use the API
+    - The OpenGL Graphics Pipeline
+  - Transforms
+    - More transforms??
+    - Hierarchical modeling
+  - Lighting
+    - Shading and lighting
+    - Reflection models
+    - Color theory
+  - Camera & Wrap-up
+    - Camera controls
+    - Scene setup
+    - A brief look at common graphics techniques
 

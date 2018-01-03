@@ -5,18 +5,33 @@ title: "Lecture 2: Software Rasterizer"
 auto-title: true
 ---
 
+## Software Rasterizer
+
+1. Read in triangles
+2. Convert triangls to windows coordinates
+3. Rasterize each triangle
+  - (use barycentric coordinates to test in-triangle AND interpolat colors)
+4. Write interpolated color values per pixel
+  (using a z-buffer test to resolve depth)
+
+### Labs
+
+#### Lab 1
+- Compute bounding box
+- Draw box and vertices
+
+#### Lab 2
+- Compte barycentric
+- Check is-interior?
+- Interpolate colors
+
+
+
+## Coordinate Mapping
+
 To draw something, we need to transform from world to pixel!
 
-- Before transform, we must constrain the view into the world
-- This includes accounting for aspect ratio
-
-$$ L = -w / h $$
-
-$$ R = w / h $$
-
-$$ B = -1 $$
-
-$$ T = 1 $$
+Before transform, we must constrain the view into the world
 
 In general, transforms can look like this:
 
@@ -27,10 +42,67 @@ $$ y_p = e * y_w + f $$
 Where $$ c $$ and $$ e $$ are scales and $$ d $$ and $$ f $$ are shifts.
 
 
-## Overview of P1
+On the left is windows coordinates, on the right is pixel coordinates:
 
-1. Read in triangles
-2. Convert to window coordinates
-3. Bound and test with barycentric coordinates
+$$ L => 0 $$
 
+$$ R => w $$
+
+$$ B => 0 $$
+
+$$ T => h $$
+
+Where $$ w $$ and $$ h $$ are the width and height of the screen in pixels (e.g. `1024 x 768`).
+
+$$ L $$, $$ R $$, $$ B $$, and $$ T $$ are the left, right, bottom, and top (respectively) of the viewport in window space.
+We will use $$ -1 $$ for Left and Bottom, and $$ 1 $$ for Right and Top.
+
+$$ 0 = c L + d $$
+
+$$ d = - c L $$
+
+So what about $$ c $$?
+
+$$ w = c R + d $$
+
+$$ w = c R - c L $$
+
+$$ w = c ( R - L ) $$
+
+$$ c = \frac{w}{R - L} $$
+
+Plug back in to our $$ w $$ equation.
+
+$$ d = \frac{-w}{R - L} * L $$
+
+$$ d = \frac{-w * -1}{w} = \frac{w}{2} $$
+
+Let's say our window is `320x240` and using the L/R/B/T values from above.
+
+$$ d = \frac{w}{2} = \frac{240}{2} = 120 $$
+
+And now plugging in to our $$ c $$ equation:
+
+$$ c = \frac{w}{R - L} = \frac{240}{1 - (-1)} = \frac{240}{2} = 120 $$
+
+So our general transformation from world coordinates into pixel coordinates is:
+
+$$ x_p = c * x_w + d $$
+
+$$ x_p = 120 * x_w + 120 $$
+
+The formulation for y will be quite similar.
+
+
+### Aspect Ratio
+
+To account for aspect ratio, we need to pick different L and R values.
+
+$$ L = -w / h $$
+
+$$ R = w / h $$
+
+$$ B = -1 $$
+
+$$ T = 1 $$
 

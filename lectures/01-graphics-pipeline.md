@@ -6,13 +6,45 @@ auto-title: true
 ---
 
 
+## Overview
+
 **Motivation:** Draw shapes/geometry to 2D screen.
 
+The Graphics Pipeline is the process by which we convert a description of a 3D scene into a 2D image that can be viewed.
+
+This involves both **transformations between spaces** and **conversions from one type of data to another**.
+
 - Spaces
+  - What is a space? Left/right perspective example
   - Where do we store geometry of scene?
     - "World" coordinates
-  - Mesh data structure
-    - Indexed-face set
+- Types of Data
+  - "Primitives"
+    - Simple kinds of figures/geometry
+  - Triangle meshes
   - What is a picture?
-    - pixels
+    - pixels, "picture elements"
+
+$$ 0 \le x_p <= w - 1 $$
+
+$$ 0 \le y_p <= h - 1 $$
+
+
+### General Graphics Pipeline
+
+<img src="01-figure-graphics-pipeline.png" alt="graphics pipeline" class="img-thumbnail" />
+
+**vertex array:** what are the vertices
+
+- input specification
+
+**vertex shader:** move to camera's perspective
+
+object space `-->` screen coordinates
+
+**rasterization:** which pixels are inside triangle?
+
+**fragment shader:** what color is each pixel?
+
+**testing and blending:** which pixels are visible?
 
