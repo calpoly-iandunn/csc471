@@ -25,7 +25,7 @@ In general the required steps for the program are:
 
 Download the base code, which has a mesh loader and an image writer from github.
 
-The mesh loader is an obj loader from [http://github.com/syoyo/tinyobjloader](http://github.com/syoyo/tinyobjloader),
+The mesh loader is an [obj loader](http://github.com/syoyo/tinyobjloader)
 and the image writer is the same as the one used in prior labs.
 
 Example mesh files are included in the base code, and you can create your own to represent a single triangle, etc.
@@ -39,11 +39,11 @@ In addition, your triangle data should include a 2D bounding box, which will rep
 
 Add a command line argument to accept the following command line arguments.
 
-- Input filename of the .obj file to rasterize
+- Input filename of the `.obj` file to rasterize
 - Output image filename
 - Image width
 - Image height
-- Coloring mode (see Task 5)
+- Coloring mode (see **Task 5**)
 
 For example, your program should be able to be run as follows:
 
@@ -159,16 +159,19 @@ Use the "color mode" command line argument to switch between two modes.
 If mode is 1, then use the z-value as in the previous task.
 If mode is 2, then use the y-value to linearly interpolate two colors of your choice.
 For example, in the right figure below, I am interpolating between yellow and cyan.
-Make sure to specify these two colors in your README.
+Make sure to specify these two colors in your `README`.
 The color should vary smoothly from top to bottom.
 
 
 <div class="row">
   <div class="col-sm-4">
-    <img src="program1_11.png" alt="program1_11.png" class="img-thumbnail" />
+    <img src="program1_11.png" alt="depth teapot" class="img-thumbnail" />
   </div>
   <div class="col-sm-4">
-    <img src="program1_12.png" alt="program1_12.png" class="img-thumbnail" />
+    <img src="program1_12.png" alt="colored teapot" class="img-thumbnail" />
+  </div>
+  <div class="col-sm-4">
+    <img src="program1_13.png" alt="colored bunny" class="img-thumbnail" />
   </div>
 </div>
 
@@ -180,13 +183,18 @@ Make sure to pass your std::vector by reference rather than by value.
 void foo(std::vector<float> & bar)
 ```
 
+Here, the `&` means the argument is passed by reference, not copy.
+
 Otherwise, your program may become too slow.
 
-And a note about graphics “bugs” - cut and paste errors are SO easy to introduce to your code,
+And a note about graphics "bugs" - cut and paste errors are SO easy to introduce to your code,
 with three coordinates and three colors, etc.
 Be sure to re-read your code.
+Probably 75% of all broken student code I read has an "x" where there should be a "z" or similar.
 The up side in "bugs" sometimes look cool.
 A cut and paste bug that made this cool effect in gradient code...
+
+<img src="program1_14.png" alt="broken bunny" class="img-thumbnail" />
 
 Read your code!
 
@@ -200,9 +208,11 @@ Read your code!
 - 15 points for correct z-buffer implementation.
 - 10 points for mode 1 color interpolation.
 - 10 points for mode 2 color interpolation.
-- 15 points for coding style and general execution. For example, do not put everything in main() .
+- 15 points for coding style and general execution. For example, do not put everything in `main()`
 
 **Total:** 100 points
+
+
 
 ## What to hand in
 
@@ -218,7 +228,7 @@ Make sure that your code compiles and runs by typing, for example:
 ```
 
 Make sure the arguments are exactly as specified.
-Include a README file that includes:
+Include a `README` file that includes:
 
 - Your name
 - The two colors for the second coloring mode
