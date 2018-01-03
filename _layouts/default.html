@@ -48,7 +48,7 @@
 
       <ul class="navbar-nav"> <!-- Course Links -->
 {% for link in site.data.course.links %}
-        <li class="nav-item">
+        <li {% if page.active == link.name or layout.active == link.name %}class="nav-item active"{% else %}class="nav-item"{% endif %}>
   {% if link.link %}
           <a class="nav-link" href="{{ link.link | prepend: site.baseurl }}">{{ link.title }}</a>
   {% else if link.outbound %}

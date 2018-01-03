@@ -24,10 +24,12 @@ tabs:
     link: /calendar.html
 
 links:
-  - title: Syllabus
+  - name: syllabus
+    title: Syllabus
     link: /syllabus.html
 
-  - title: PolyLearn
+  - name: polylearn
+    title: PolyLearn
     outbound: "https://polylearn.calpoly.edu/AY_2017-2018/course/view.php?id=13651"
 
 schedule_columns:
