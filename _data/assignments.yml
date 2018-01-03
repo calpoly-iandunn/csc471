@@ -37,7 +37,7 @@ lab03:
   subtitle: "Intro to OpenGL"
   type:     lab
   individual: true
-  assigned: Monday 1/22
+  assigned: Friday 1/19
   due:      Friday 1/26
   basecode: https://github.com/calpoly-csc471/lab03
 
