@@ -49,7 +49,11 @@
       <ul class="navbar-nav"> <!-- Course Links -->
 {% for link in site.data.course.links %}
         <li class="nav-item">
-          <a class="nav-link" href="{{ link.link }}">{{ link.title }}</a>
+  {% if link.link %}
+          <a class="nav-link" href="{{ link.link | prepend: site.baseurl }}">{{ link.title }}</a>
+  {% else if link.outbound %}
+          <a class="nav-link" href="{{ link.outbound }}">{{ link.title }}</a>
+  {% endif %}
         </li>
 {% endfor %}
       </ul>

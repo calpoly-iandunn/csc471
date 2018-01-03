@@ -19,17 +19,16 @@ tabs:
     title: Assignments
     link: /assignments
 
-  - name: syllabus
-    title: Syllabus
-    link: /syllabus.html
-
   - name: calendar
     title: Calendar
     link: /calendar.html
 
 links:
+  - title: Syllabus
+    link: /syllabus.html
+
   - title: PolyLearn
-    link: "https://polylearn.calpoly.edu/AY_2017-2018/course/view.php?id=13651"
+    outbound: "https://polylearn.calpoly.edu/AY_2017-2018/course/view.php?id=13651"
 
 schedule_columns:
   - name: lecture
