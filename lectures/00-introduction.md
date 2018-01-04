@@ -20,10 +20,21 @@ auto-title: true
   - Git usage
 - Deadlines and late penalties
 
-- Subject Matter
-  - We will be learning and using C++
-  - We will be learning and using OpenGL
-  - We will be using Git to turn things in
+Subject Matter
+
+- We will be learning and using C++
+- We will be learning and using OpenGL
+- We will be using Git to turn things in
+
+Questions:
+
+- Most comfortable programming language?
+- Which class would you rather take a math class or drawing class?
+- Why are you taking computer graphics?
+  - Game development (game industry)
+  - Animation (cg industry)
+  - Offline rendering (cg industry)
+  - Research (academic graphics)
 
 [Quiz Time!](http://area.autodesk.com/fakeorfoto/)
 
