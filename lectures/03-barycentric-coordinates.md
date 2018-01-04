@@ -6,6 +6,9 @@ auto-title: true
 p5: true
 ---
 
+<a href="https://docs.google.com/presentation/d/1Ac94J0LqbAwgAP9y1lmzKGhHOp7kZWkvyJc2uNbhADg/edit?usp=sharing" class="btn btn-info">Slide Deck - Dr. Sueda</a>
+
+
 ## Basics
 
 Barycentric coordinates of point $$ p $$ in terms of $$ a $$, $$ b $$, and $$ c $$

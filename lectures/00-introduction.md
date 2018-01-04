@@ -7,6 +7,7 @@ auto-title: true
 
 
 <a href="https://docs.google.com/presentation/d/1D_htUiKc0UhsAPWfNC6GqLFaIGWDT9Q0uGryFbODB9s/edit?usp=sharing" class="btn btn-info">Slide Deck</a>
+<a href="https://docs.google.com/presentation/d/1-M4FVo_CUWjC2PGK8w-ykNfbrTZ7kw8ux8bAO1AVE44/edit?usp=sharing" class="btn btn-info">Slide Deck - Dr. Sueda</a>
 
 
 ## About The Class
@@ -23,6 +24,8 @@ auto-title: true
   - We will be learning and using C++
   - We will be learning and using OpenGL
   - We will be using Git to turn things in
+
+[Quiz Time!](http://area.autodesk.com/fakeorfoto/)
 
 
 
