@@ -18,6 +18,9 @@ This involves both **transformations between spaces** and **conversions from one
   - What is a space? Left/right perspective example
   - Where do we store geometry of scene?
     - "World" coordinates
+
+<img src="01-figure-coordinate-frame.png" alt="coordinate frame" class="img-thumbnail" />
+
 - Types of Data
   - "Primitives"
     - Simple kinds of figures/geometry
@@ -25,9 +28,14 @@ This involves both **transformations between spaces** and **conversions from one
   - What is a picture?
     - pixels, "picture elements"
 
-$$ 0 \le x_p <= w - 1 $$
+$$ 0 \le x_p \le w - 1 $$
 
-$$ 0 \le y_p <= h - 1 $$
+$$ 0 \le y_p \le h - 1 $$
+
+<img src="01-figure-pixel-coordinates.png" alt="pixel coordinates" class="img-thumbnail" />
+
+We need a way to transform from world to pixel.
+
 
 
 ### General Graphics Pipeline
