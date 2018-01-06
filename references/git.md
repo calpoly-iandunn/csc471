@@ -38,6 +38,7 @@ Add your source code and readme to using the **add** command it like this:
 ```bash
 git add src/
 git add resources/
+git add ext/
 git add CMakeLists.txt
 git add README.md
 git status
