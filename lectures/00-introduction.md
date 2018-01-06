@@ -17,7 +17,7 @@ auto-title: true
 - Website overview
 - Communication and questions
 - GitHub Classroom
-  - Git usage
+  - [Git usage]({{ "/references/git" | prepend: site.baseurl }})
 - Deadlines and late penalties
 
 Subject Matter
