@@ -5,6 +5,10 @@ title: "Final Project"
 auto-title: true
 ---
 
+<p><a href="https://classroom.github.com/a/dLRmHrl4" class="btn btn-info">GitHub Classroom - Proposal</a></p>
+<p><a href="https://classroom.github.com/a/-NdAZ3Vw" class="btn btn-info">GitHub Classroom - Code</a></p>
+<p><a href="https://classroom.github.com/a/aHeB6af4" class="btn btn-info">GitHub Classroom - Website</a></p>
+
 ## Dates
 
 Dates to watch out for:
@@ -50,7 +54,7 @@ For ideas for a project, consider looking at all the past class projects or at t
 
 ### Hand-In
 
-[Submit your final project description via GitHub Classroom at this link.](https://classroom.github.com/a/jQQ4yoA9)
+[Submit your final project description via GitHub Classroom at this link.](https://classroom.github.com/a/dLRmHrl4)
 
 The following formats are acceptable:
 
@@ -88,6 +92,6 @@ General point break down:
 
 ### Hand-In
 
-[Submit your final project code via GitHub Classroom at this link.](https://classroom.github.com/a/xgcY92-a)
+[Submit your final project code via GitHub Classroom at this link.](https://classroom.github.com/a/-NdAZ3Vw)
 
-[Submit your final project website via GitHub Classroom at this link.](https://classroom.github.com/a/_61r38ru)
+[Submit your final project website via GitHub Classroom at this link.](https://classroom.github.com/a/aHeB6af4)
