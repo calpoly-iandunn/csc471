@@ -21,7 +21,7 @@ auto-title: true
 - Draw box and vertices
 
 #### Lab 2
-- Compte barycentric
+- Compute barycentric
 - Check is-interior?
 - Interpolate colors
 

@@ -80,7 +80,7 @@ The dot product of a vector with another vector relates to the length of both ve
 
 Specifically:
 
-$$ \vec a \cdot \vec b = \| a \| \quad \| b \| cos\theta $$
+$$ \vec a \cdot \vec b = \| a \| * \| b \| * cos\theta $$
 
 Where $$ \theta $$ is the angle between the two vectors.
 

@@ -103,7 +103,7 @@ In real time computer graphics we tent to use one a few simple empircal models o
 Light rays eimt from a point light radially and diverge from the source (called omni-directional point sources).
 This is a fair approximation of a light bulb.
 
-The light from this type of source is **geometryically attenuated**.
+The light from this type of source is **geometically attenuated**.
 This is a frightening way of saying "it gets dimmer when you get farther away".
 The reason we use the frightening term is to demonstrate a point:
 It's not that the light beams/photons/whatever loses energy as we get further away.

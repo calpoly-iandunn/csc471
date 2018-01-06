@@ -1,7 +1,7 @@
 ---
 layout: page
 active: lectures
-title: "Lecture 10: OpenGL Pipeline 1"
+title: "Lecture 11: OpenGL Pipeline 2"
 auto-title: true
 ---
 
