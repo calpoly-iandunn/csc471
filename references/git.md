@@ -72,6 +72,8 @@ First you need to accept access to your repository by clicking on the blue butto
 After you accept the assignment, you will be able to select a **clone** url.
 You will need to copy either the **HTTPS** or **SSH** clone url for your repository.
 
+![clone or download](git-figure-clone.png)
+
 **HTTPS** will require your GitHub password every time you try to push.
 
 **SSH** will require that you set up [SSH Keys](https://help.github.com/articles/connecting-to-github-with-ssh/) with your GitHub account,
