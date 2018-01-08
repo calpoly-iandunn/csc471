@@ -4,6 +4,14 @@ assignment: "lab08"
 title: Lab 8
 ---
 
+<div class="alert alert-dismissible alert-danger">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4>Warning!</h4>
+  <p>
+    The description for this assignment will be changing soon.
+  </p>
+</div>
+
 **Objective:**  implement pitch and yaw and play with FBO effects.
 
 ### Orientation
