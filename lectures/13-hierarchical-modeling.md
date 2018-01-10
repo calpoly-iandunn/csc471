@@ -124,3 +124,16 @@ push();
   rect(-50, -50, 100, 100);
 pop();
 ```
+
+
+## Transformation Order
+
+Note that the standard order to apply the usual three transforms (translation, rotation, and scale) to an object is:
+
+
+$$ T * R * S * v $$
+
+You definitely want to apply scale before translation - otherwise, the scale will increase or decrease the translation amount.
+
+If the scale is uniform (same value for x, y, and z) then it and rotation can be in either order.
+But, applying a non-uniform scale after rotation will cause a weird effect (it will turn rectangles into trapezoids).
