@@ -220,10 +220,54 @@ $$ I_d = k_d ( N \cdot L ) I_L $$
 
 ### Specular Reflection
 
+$$ I_s = k_s ( V \cdot R ) ^ \alpha I_L $$
 
+- $$ I_L $$: the incoming light intensity
+- $$ K_s $$: specular reflection coefficient
+- $$ V $$: view vector
+- $$ R $$: reflection vector
+- $$ \alpha $$: shininess constant
 
 
 ### Ambient
 
+$$ I_a = k_a $$
+
+- $$ K_s $$: ambient reflection coefficient
+
+
 
 ![phong](16-figure-phong.png)
+
+
+
+
+## Blinn-Phong Reflection Model
+
+### Half-Vector Approximation
+
+The half-vector approximation started as an optimization to improve shading performance.
+It could be pre-computed for a given lighting and view configuration and was thus cheaper than
+computing the reflection vector for each fragment.
+
+Nowadays the optimization is meaningless since, generally, a difference of a few FLOPS in a shader doesn't matter
+compared to larger concerns like render call count and memory throughput.
+
+But, empirical studies of real-world lighting scenarios show that the half-vector approximation is actually
+more accurate in many scenarios.
+So it is commonly used.
+
+$$ H = \frac{V + L}{\| V + L \|} $$
+
+Also note that in the planar case, the half-vector approximation is indentical to the standard Phong model.
+It's when the view, normal, and light vector are not in the same plane that Blinn-Phong and Phong will be different.
+
+### Specular Reflection
+
+$$ I_s = k_s ( H \cdot N ) ^ \alpha I_L $$
+
+- $$ I_L $$: the incoming light intensity
+- $$ K_s $$: specular reflection coefficient
+- $$ H $$: half vector
+- $$ N $$: surface normal
+- $$ \alpha $$: shininess constant
