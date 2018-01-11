@@ -8,7 +8,7 @@ title: "Lectures"
 
 - [0 - Introduction](00-introduction)
 - [1 - The Graphics Pipeline](01-graphics-pipeline)
-- [2 - Software Rasterizer](02-software-rasterizer)
+- [2 - Coordinate Mapping](02-coordinate-mapping)
 - [3 - Lines and Planes](03-lines-and-planes)
 - [3 - Barycentric Coordinates](03-barycentric-coordinates)
 - [4 - Meshes](04-meshes)

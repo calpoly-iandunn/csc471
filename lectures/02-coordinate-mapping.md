@@ -1,30 +1,9 @@
 ---
 layout: page
 active: lectures
-title: "Lecture 2: Software Rasterizer"
+title: "Lecture 2: Coordinate Mapping"
 auto-title: true
 ---
-
-## Software Rasterizer
-
-1. Read in triangles
-2. Convert triangls to windows coordinates
-3. Rasterize each triangle
-  - (use barycentric coordinates to test in-triangle AND interpolat colors)
-4. Write interpolated color values per pixel
-  (using a z-buffer test to resolve depth)
-
-### Labs
-
-#### Lab 1
-- Compute bounding box
-- Draw box and vertices
-
-#### Lab 2
-- Compute barycentric
-- Check is-interior?
-- Interpolate colors
-
 
 
 ## Coordinate Mapping

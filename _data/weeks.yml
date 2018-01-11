@@ -14,12 +14,12 @@
     lecture:
       - text: The Graphics Pipeline
         link: /lectures/01-graphics-pipeline
-      - text: Software Rasterizer
-        link: /lectures/02-software-rasterizer
 
 
   - name: Friday 1/12
     lecture:
+      - text: Coordinate Mapping
+        link: /lectures/02-coordinate-mapping
       - text: Barycentric Coordinates
         link: /lectures/03-barycentric-coordinates
       - text: Meshes
