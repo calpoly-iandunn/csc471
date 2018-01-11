@@ -8,7 +8,7 @@ lab01:
   type:     lab
   individual: true
   assigned: Monday 1/8
-  due:      Wednesday 1/10
+  due:      Friday 1/12
   basecode: https://github.com/calpoly-csc471/lab01
 
 lab02:
@@ -16,7 +16,7 @@ lab02:
   subtitle: "Software Rasterizer: Single Triangle"
   type:     lab
   individual: true
-  assigned: Wednesday 1/10
+  assigned: Friday 1/12
   due:      Wednesday 1/17
 
 program01:
