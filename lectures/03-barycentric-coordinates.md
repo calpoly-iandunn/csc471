@@ -9,6 +9,17 @@ p5: true
 <a href="https://docs.google.com/presentation/d/1Ac94J0LqbAwgAP9y1lmzKGhHOp7kZWkvyJc2uNbhADg/edit?usp=sharing" class="btn btn-info">Slide Deck - Dr. Sueda</a>
 
 
+We're going to use triangles a lot this quarter.
+So we need a way to figure things out about triangles.
+One thing we're definitely going to test is whether certain points are inside a triangle or not,
+but we'll also need to answer other questions, like what color a part of a triangle is.
+
+The idea behind **Barycentric Coordinates** is that we're going to use three numbers to describe the position of a point in relation to a specific triangle.
+These numbers represent more or less the "closeness" to each vertex -
+if a point is really close to vertex A of a triangle and far from B and C,
+we would say that the barycentric coordinates of the point are, say,
+98% A, 1% B, and 1% C.
+
 ## Basics
 
 Barycentric coordinates of point $$ p $$ in terms of $$ a $$, $$ b $$, and $$ c $$

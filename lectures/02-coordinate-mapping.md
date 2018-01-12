@@ -10,7 +10,7 @@ auto-title: true
 
 To draw something, we need to transform from world to pixel!
 
-Before transform, we must constrain the view into the world
+Before transform, we must constrain the view into the world.
 
 
 ### General Form
@@ -22,6 +22,9 @@ $$ x_p = c * x_w + d $$
 $$ y_p = e * y_w + f $$
 
 Where $$ c $$ and $$ e $$ are scales and $$ d $$ and $$ f $$ are shifts.
+
+(it's going to seem like we use these equations for this assignment and never again, but this is the basis for most of the transforms we will do this quarter)
+
 
 We must constrain our world into a particular view.
 We will determine a mapping from four world space values to pixel/screen space values.
