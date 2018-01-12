@@ -110,6 +110,12 @@ $$ A_c = \frac{1}{2} \begin{vmatrix}x_b - x_a & x - x_a\\y_b - y_a & y - y_a\end
 
 Computing the determinants is left as exercise for the reader :-)
 
+Except I'll share the solution for A here:
+
+$$ A = \frac{1}{2} \begin{vmatrix}x_b - x_a & x_c - x_a\\y_b - y_a & y_c - y_a\end{vmatrix} $$
+
+$$ = \frac{1}{2} ( (x_b - x_a) * (y_c - y_a) - (x_c - x_a) * (y_b - y_a) ) $$
+
 Finally, we can compute $$ \alpha $$ from $$ \beta $$ and $$ \gamma $$:
 
 $$ \alpha = 1 - \beta - \gamma $$
