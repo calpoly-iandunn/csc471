@@ -22,8 +22,6 @@
         link: /lectures/02-coordinate-mapping
       - text: Barycentric Coordinates
         link: /lectures/03-barycentric-coordinates
-      - text: Meshes
-        link: /lectures/04-meshes
     weekend: Sunday 1/14
 
 
@@ -40,6 +38,8 @@
 
   - name: Wednesday 1/17
     lecture:
+      - text: Meshes
+        link: /lectures/04-meshes
       - text: Vectors
         link: /lectures/05-vectors
       - text: C++ 1
