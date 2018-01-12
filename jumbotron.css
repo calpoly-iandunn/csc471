@@ -121,4 +121,8 @@ pre {
   p > img {
 
   }
+
+  .navbar {
+    display: none;
+  }
 }
