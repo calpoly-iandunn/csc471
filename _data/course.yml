@@ -34,7 +34,7 @@ links:
 
   - name: piazza
     title: Piazza
-    outbound: "https://piazza.com/class/jc6b52fuias7e0"
+    outbound: "http://piazza.com/calpoly/winter2018/csc471"
 
 schedule_columns:
   - name: lecture
