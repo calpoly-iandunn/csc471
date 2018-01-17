@@ -93,7 +93,7 @@ Download these:
 
 Make sure the command `cmake` works from the command prompt.
 
-Now use `vcpkg` to install `glm` and `glfw3`
+Now use `vcpkg` to install `glm:x64-windows` and `glfw3:x64-windows`.
 
 
 
