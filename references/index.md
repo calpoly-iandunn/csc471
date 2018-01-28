@@ -9,9 +9,7 @@ auto-title: true
 
 - [C++/CMake Build Instructions](cpp-build-cmake)
 - [C++/Visual Studio Build Instructions](cpp-build-vs)
-
 - [OpenGL Build Instructions](opengl-build)
-
 - [Using Git and GitHub Classroom](git)
 
 
@@ -21,8 +19,9 @@ auto-title: true
 - [Cook-Torrance Reflectance Model](cook-torrance)
 
 
-## OpenGL Examples
+## OpenGL
 
+- [Debugging OpenGL Applications](debugging-opengl)
 - [Minimal OpenGL Example](minimal-opengl)
 - [Camera Controls](camera-controls)
 
