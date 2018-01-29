@@ -40,10 +40,6 @@
     lecture:
       - text: Meshes
         link: /lectures/04-meshes
-      - text: Vectors
-        link: /lectures/05-vectors
-      - text: C++ 1
-        link: /lectures/14-cpp-1
 
 
   - name: Friday 1/19
@@ -64,23 +60,20 @@
 
   - name: Monday 1/22
     lecture:
-      - text: OpenGL Pipeline 1
+      - text: OpenGL Coding Demo
         link: /lectures/10-opengl-pipeline-1
 
 
   - name: Wednesday 1/24
     lecture:
-      - text: OpenGL Pipeline 2
+      - text: OpenGL Coding Demo
         link: /lectures/11-opengl-pipeline-2
 
 
   - name: Friday 1/26
     lecture:
-      - text: Matrices
-        link: /lectures/06-matrices
-      - text: Matrix Operations
-        link: /lectures/07-matrix-operations
     weekend: Sunday 1/28
+      - text: OpenGL Coding Demo
 
 
 
@@ -92,12 +85,18 @@
 
   - name: Monday 1/29
     lecture:
-      - text: Coordinate Transformations
-        link: /lectures/08-transformations
+      - text: Vectors
+        link: /lectures/05-vectors
+      - text: Matrices
+        link: /lectures/06-matrices
+      - text: Matrix Operations
+        link: /lectures/07-matrix-operations
 
 
   - name: Wednesday 1/31
     lecture:
+      - text: Coordinate Transformations
+        link: /lectures/08-transformations
       - text: Geometric Transforms
         link: /lectures/12-geometric-transforms
 
@@ -122,6 +121,8 @@
         link: /references/midterm-1-guide
       - text: Lines and Planes
         link: /lectures/03-lines-and-planes
+      - text: C++ 1
+        link: /lectures/14-cpp-1
 
 
   - name: Wednesday 2/7
