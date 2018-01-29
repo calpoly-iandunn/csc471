@@ -89,20 +89,20 @@
         link: /lectures/05-vectors
       - text: Matrices
         link: /lectures/06-matrices
-      - text: Matrix Operations
-        link: /lectures/07-matrix-operations
 
 
   - name: Wednesday 1/31
     lecture:
+      - text: Matrix Operations
+        link: /lectures/07-matrix-operations
       - text: Coordinate Transformations
         link: /lectures/08-transformations
-      - text: Geometric Transforms
-        link: /lectures/12-geometric-transforms
 
 
   - name: Friday 2/2
     lecture:
+      - text: Geometric Transforms
+        link: /lectures/12-geometric-transforms
       - text: Hierarchical Transforms
         link: /lectures/13-hierarchical-modeling
     weekend: Sunday 2/4
