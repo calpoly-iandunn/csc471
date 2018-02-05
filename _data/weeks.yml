@@ -95,16 +95,14 @@
     lecture:
       - text: Matrix Operations
         link: /lectures/07-matrix-operations
-      - text: Coordinate Transformations
-        link: /lectures/08-transformations
 
 
   - name: Friday 2/2
     lecture:
+      - text: Coordinate Transformations
+        link: /lectures/08-transformations
       - text: Geometric Transforms
         link: /lectures/12-geometric-transforms
-      - text: Hierarchical Transforms
-        link: /lectures/13-hierarchical-modeling
     weekend: Sunday 2/4
 
 
@@ -117,23 +115,23 @@
 
   - name: Monday 2/5
     lecture:
-      - text: Midterm Review
-        link: /references/midterm-1-guide
-      - text: Lines and Planes
-        link: /lectures/03-lines-and-planes
-      - text: C++ 1
-        link: /lectures/14-cpp-1
+      - text: Hierarchical Transforms
+        link: /lectures/13-hierarchical-modeling
 
 
   - name: Wednesday 2/7
     lecture:
-      - text: Midterm 1
+      - text: Lines and Planes
+        link: /lectures/03-lines-and-planes
+      - text: Midterm Review
+        link: /references/midterm-1-guide
+      - text: C++ 1
+        link: /lectures/14-cpp-1
 
 
   - name: Friday 2/9
     lecture:
-      - text: "Lighting and Shading 1: Color and Vision"
-        link: /lectures/15-lighting-1
+      - text: Midterm 1
     weekend: Sunday 2/11
 
 
@@ -146,20 +144,20 @@
 
   - name: Monday 2/12
     lecture:
-      - text: "Lighting and Shading 2: Reflectance Modeling"
-        link: /lectures/16-lighting-2
+      - text: "Lighting and Shading 1: Color and Vision"
+        link: /lectures/15-lighting-1
 
 
   - name: Wednesday 2/14
     lecture:
-      - text: "Lighting and Shading 3: Details and Wrapup"
-        link: /lectures/17-lighting-3
+      - text: "Lighting and Shading 2: Reflectance Modeling"
+        link: /lectures/16-lighting-2
 
 
   - name: Friday 2/16
     lecture:
-      - text: Viewing Transforms
-        outbound: https://drive.google.com/open?id=1R0QmszzQjm9I5314RuAS_HGOBDGeuN4rApy5wEi14tY
+      - text: "Lighting and Shading 3: Details and Wrapup"
+        link: /lectures/17-lighting-3
     weekend: Sunday 2/18
 
 
@@ -172,19 +170,19 @@
 
   - name: Tuesday 2/20
     lecture:
-      - text: Lookat Matrix Formulation
-        link: /lectures/18-lookat-matrix
+      - text: Viewing Transforms
+        outbound: https://drive.google.com/open?id=1R0QmszzQjm9I5314RuAS_HGOBDGeuN4rApy5wEi14tY
 
 
   - name: Wednesday 2/21
     lecture:
-      - text: Projection Transforms
+      - text: Lookat Matrix Formulation
+        link: /lectures/18-lookat-matrix
 
 
   - name: Friday 2/23
     lecture:
-      - text: Textures
-        link: /lectures/19-textures
+      - text: Projection Transforms
     weekend: Sunday 2/25
 
 
@@ -197,20 +195,22 @@
 
   - name: Monday 2/26
     lecture:
-      - text: Textures, cont.
+      - text: Textures
         link: /lectures/19-textures
 
 
   - name: Wednesday 2/28
     lecture:
-      - text: Framebuffers
-        link: /lectures/20-framebuffers
+      - text: Textures, cont.
+        link: /lectures/19-textures
+      - text: Final Project Grab Bag
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Friday 3/2
     lecture:
-      - text: Final Project Grab Bag
-        link: /lectures/25-final-project-grab-bag
+      - text: Framebuffers
+        link: /lectures/20-framebuffers
     weekend: Sunday 3/1
 
 
