@@ -76,7 +76,7 @@ program02b:
   type:     program
   individual: true
   assigned: Friday 2/2
-  due:      Sunday 2/11
+  due:      Monday 2/12
   github:   https://classroom.github.com/a/NLV5LBsT
 
 lab06:
@@ -85,7 +85,7 @@ lab06:
   type:     lab
   individual: true
   assigned: Wednesday 2/7
-  due:      Monday 2/12
+  due:      Wednesday 2/14
   basecode: https://github.com/calpoly-csc471/lab06
 
 
