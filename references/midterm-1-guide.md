@@ -31,7 +31,6 @@ This list could shrink or expand (which would be announced in class).
 - have a general understanding of matrices and matrix/vector operations
 - understand what matrices look like for various 2D and 3D transformations, such as translation, scale, rotate and shear
 - be able to apply these transforms
-- Write the pseudo-code for the virtual trackball rotations.
 - Be able to clearly specify what a composite transform will do to given geometry
 
 
