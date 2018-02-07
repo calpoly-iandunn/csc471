@@ -15,6 +15,31 @@ $$ y = m * x + b $$
 
 Implicit equation:
 
+Consider two known points of a triangle $$(x_0, y_0)$$ and $$(x_1, y_1)$$.
+
+We can use these points to determine the slope and plug into the explicit equation:
+
+$$ y = \frac{(y_1 - y_0)}{(x_1 - x_0)} x + b $$
+
+$$ 0 = (y_1 - y_0) x - (x_1 - x_0) y + c $$
+
+$$ f(x, y) = (y_1 - y_0) x - (x_1 - x_0) y + c $$
+
+Here we have replaced the unknown y-intercept $$ b $$ with another constant, $$ b * (x_1 - x_0) = c $$.
+We don't really care what $$ b $$ was so we'll just move on with $$ c $$.
+
+We know that $$(x_0, y_0)$$ is on the point, so let's plug in an solve for $$ c $$.
+
+$$ f(x_0, y_0) = (y_1 - y_0) x_0 - (x_1 - x_0) y_0 + c = 0 $$
+
+$$ c = (x_1 - x_0) y_0 - (y_1 - y_0) x_0 $$
+
+$$ c = x_1 y_0 - x_0 y_0 - y_1 x_0 + y_0 x_0 $$
+
+$$ c = x_1 y_0 - y_1 x_0 $$
+
+Plug back in to our original equation with $$ c $$
+
 $$ f(x, y) = (y_1 - y_0) * x - (x_1 - x_0) * y + x_1 * y_0 - y_1 * x_0 = 0 $$
 
 
