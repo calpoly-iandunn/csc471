@@ -5,6 +5,14 @@ title: "Midterm 1 Guide"
 auto-title: true
 ---
 
+### Past Exams
+
+* [Fall 2017](Midterm1_F17.pdf)
+* [Spring 2017](midterm1_S17.pdf)
+* [Winter 2017](midterm1_W17.pdf)
+
+
+## Study Guide
 
 The following topics *could* appear on midterm 1.
 This list could shrink or expand (which would be announced in class).
