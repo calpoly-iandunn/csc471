@@ -64,6 +64,14 @@ auto-title: true
       {% endif %}
     {% endif %}
   {% endfor %}
+
+  {% for date in site.data.dates %}
+    {% if day.name == date.when %}
+      {% assign anything = true %}
+        <li>{{ date.what }}</li>
+    {% endif %}
+  {% endfor %}
+
       </ul>
     </td>
 {% endfor %}
