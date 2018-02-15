@@ -12,9 +12,6 @@ title: Program 3
   </p>
 </div>
 
-The late policy on the syllabus applies.
-This programming assignment should be done **individually**!
-You may talk to one another about the program, but you may not look at someone’s working code.
 
 
 
@@ -42,6 +39,8 @@ mesh as a color. Make sure that your computed normal look reasonable! When
 toggling through the shaders using the “p” key (see #4), the normal should be
 displayed with this original coloring.
 
+Also switch to a **perspective** projection matrix by replacing the `P->ortho` call with a `P->perspective` call.
+
 {% include image-block.html file="program3_1.jpg" alt="Program 3 Figure 1" %}
 
 
@@ -65,6 +64,8 @@ shading. Implement the shading by computing and setting a color per vertex in
 your vertex shader. Your shading should include diffuse, specular and ambient
 lighting. Gouraud shading should be implements in one shader pair.
 
+Make sure that both your view vector and normal vector are in **world space**.
+
 {% include image-block.html file="program3_6.jpg" alt="Program 3 Figure 6" %}
 
 
@@ -77,12 +78,12 @@ should allow the user to toggle between the various shading models. Be sure
 to toggle between the different shaders by toggling between programs on the
 CPU.
 
+Make sure that both your view vector and normal vector are in **world space**.
+
 {% include image-block.html file="program3_3.jpg" alt="Program 3 Figure 3" %}
 
 {% include image-block.html file="program3_7.jpg" alt="Program 3 Figure 7" %}
 
-For both shaders work slowly and be sure you keep all vectors in the same space!
-No vectors used for lighting should be transformed in perspective space.
 
 
 
