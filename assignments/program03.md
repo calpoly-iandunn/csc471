@@ -4,30 +4,21 @@ assignment: "program03"
 title: Program 3
 ---
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  <p>
-    The description for this assignment will be changing soon.
-  </p>
-</div>
 
 
-
-
-## Objectives
-
-Objectives: learn about shading, including the difference between Gouraud, Phong and a
+**Objectives:** learn about shading, including the difference between Gouraud, Phong and a
 silhouette shader. Create a program that can set up a scene with multiple meshes with
 different material properties on the two different meshes.
 
-You may start with any of the prior code to read in an obj mesh (that is specified on the
+You may start with any of the prior code to read in an `.obj` mesh (that is specified on the
 command line). Note that your program must compute the normals for the input mesh –
 even for a mesh with normals provided, you must compute the normals. **Your code
 will be tested on files that do not include normal, so your code must deal with this!** To
 complete this assignment you must:
 
 
+
+## Steps
 
 ### Step 1:
 
@@ -38,8 +29,6 @@ debugging, use the shader we used for P2B, which displayed the normal of the
 mesh as a color. Make sure that your computed normal look reasonable! When
 toggling through the shaders using the “p” key (see #4), the normal should be
 displayed with this original coloring.
-
-Also switch to a **perspective** projection matrix by replacing the `P->ortho` call with a `P->perspective` call.
 
 {% include image-block.html file="program3_1.jpg" alt="Program 3 Figure 1" %}
 
@@ -54,6 +43,8 @@ position of the light using the keyboard – specifically if the user presses th
 key the light should move to the left and when the user presses the ‘e’ key the
 light should move to the right. All lighting should be done via your GLSL
 shaders.
+
+Also switch to a **perspective** projection matrix by replacing the `P->ortho` call with a `P->perspective` call.
 
 
 
