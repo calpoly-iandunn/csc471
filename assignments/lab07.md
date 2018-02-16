@@ -4,7 +4,7 @@ assignment: "lab07"
 title: Lab 7
 ---
 
-Today we will implement simple diffuse lighting for a sphere `.obj. file.
+Today we will implement simple diffuse lighting for a sphere `.obj`. file.
 Starting with any prior lab code that reads in an `.obj` file (including the mesh normals),
 you will add the necessary code to shade the mesh with diffuse lighting.
 For this lab, you will need to modify both the `main.cpp` file and the vertex shader.
