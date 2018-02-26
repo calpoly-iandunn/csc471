@@ -181,7 +181,6 @@
     lecture:
       - text: Lookat Matrix Formulation
         link: /lectures/18-lookat-matrix
-      - text: Projection Transforms
     weekend: Sunday 2/25
 
 
@@ -194,18 +193,21 @@
 
   - name: Monday 2/26
     lecture:
-      - text: Textures
-        link: /lectures/19-textures
+      - text: Projection Transforms
 
 
   - name: Wednesday 2/28
     lecture:
-      - text: Framebuffers
-        link: /lectures/20-framebuffers
+      - text: Textures
+        link: /lectures/19-textures
 
 
   - name: Friday 3/2
     lecture:
+      - text: Texture Filtering
+        link: /lectures/21-texture-filtering
+      - text: Framebuffers
+        link: /lectures/20-framebuffers
       - text: Final Project Grab Bag
         link: /lectures/25-final-project-grab-bag
     weekend: Sunday 3/1
@@ -220,8 +222,6 @@
 
   - name: Monday 3/5
     lecture:
-      - text: Texture Filtering
-        link: /lectures/21-texture-filtering
       - text: Shadow Maps
         outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
 
