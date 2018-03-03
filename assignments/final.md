@@ -58,14 +58,18 @@ Some difficulty labels have been applied but they are very approximate -
 the difficulty of a technology depends on the depth to which the technology is explored,
 and the degree to which the technology is self-implemented versus followed from a tutorial.
 
+Technologies with "unknown" difficulty mean I have not implemented or researched these technologies,
+so I'm not sure how difficult it will be.
+
 * Terrain heightmap **[Simple]**{: style="color: MediumSeaGreen"}
 * Skybox/skysphere **[Simple]**{: style="color: MediumSeaGreen"}
+* Billboards **[Simple]**{: style="color: MediumSeaGreen"}
 * Underwater caustics
 * Reflective and/or refractive water surface
 * Editable terrain heightmap **[Moderate]**{: style="color: GoldenRod"}
 * Rigid body animation
 * Collision detection
-* Sound/audio
+* Sound/audio **[Unknown]**{: style="color: MediumSlateBlue"}
 * Artifical intelligence
 * Game mechanics
 * Bitmapped text
@@ -77,7 +81,12 @@ and the degree to which the technology is self-implemented versus followed from 
 * Simple shadows (planar shadows or projected textures)
 * Boids (flocking algorithm)
 * Physically-based BRDF such as Cook-Torrance **[Moderate]**{: style="color: GoldenRod"}
+* Bloom
+* High-dynamic-range lighting
+* Depth of field, especially bokeh **[Unknown]**{: style="color: MediumSlateBlue"}
+* Light volumes, i.e. "god rays" **[Unknown]**{: style="color: MediumSlateBlue"}
 
+If you find a technology that might belong on this list, please let me know!
 
 #### Advanced
 
