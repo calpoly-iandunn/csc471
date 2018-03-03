@@ -32,3 +32,4 @@ title: "Lectures"
 - [22 - Interpolation](22-interpolation)
 - [23 - C++ 2](23-cpp-2)
 - [24 - Clipping, Culling, and Hidden Surface Removal](24-clipping-culling)
+- [25 - Final Project Grab Bag](25-final-project-grab-bag)
