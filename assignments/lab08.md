@@ -4,6 +4,12 @@ assignment: "lab08"
 title: Lab 8
 ---
 
+But, only the **Camera** aspects are due on the due date.
+
+The remaining FBO aspects are due on **Wednesday 3/7**.
+
+---
+
 **Objective:**  implement pitch and yaw and play with FBO effects.
 
 ### Orientation
