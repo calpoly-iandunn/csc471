@@ -29,3 +29,9 @@ You can't read and write to the same buffer in a single draw call.
 So if we want to do any sort of multi-pass rendering (e.g. a blur),
 we need to create two framebuffers and "ping pong" in-between them.
 
+
+
+## Gaussian Blur
+
+[This artucle](http://rastergrid.com/blog/2010/09/efficient-gaussian-blur-with-linear-sampling/) describes an optimized technique
+for computing Gaussian blur but the first half describes the simple version used in our Lab 8 basecode.
