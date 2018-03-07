@@ -35,3 +35,5 @@ we need to create two framebuffers and "ping pong" in-between them.
 
 [This artucle](http://rastergrid.com/blog/2010/09/efficient-gaussian-blur-with-linear-sampling/) describes an optimized technique
 for computing Gaussian blur but the first half describes the simple version used in our Lab 8 basecode.
+
+[This tool](http://dev.theomader.com/gaussian-kernel-calculator/) can be used to calculate gaussian kernel coefficients!
