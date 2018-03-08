@@ -208,7 +208,7 @@
         link: /lectures/21-texture-filtering
       - text: Framebuffers
         link: /lectures/20-framebuffers
-      - text: Final Project Grab Bag
+      - text: Skinned Meshes
         link: /lectures/25-final-project-grab-bag
     weekend: Sunday 3/1
 
@@ -222,24 +222,30 @@
 
   - name: Monday 3/5
     lecture:
-      - text: Shadow Maps
-        outbound: https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo
+      - text: Heightmap Terrain
+        link: /lectures/25-final-project-grab-bag
+      - text: Terrain Noise Algorithms
+        link: /lectures/25-final-project-grab-bag
+      - text: Skybox
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Wednesday 3/7
     lecture:
+      - text: Shadow Maps
+        link: /lectures/25-final-project-grab-bag
       - text: Deferred Shading
-        outbound: https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8
+        link: /lectures/25-final-project-grab-bag
+      - text: Ambient Occlusion
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Friday 3/9
     lecture:
-      - text: Ambient Occlusion
-        outbound: https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0
       - text: Physically-Based Rendering
-        outbound: https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE
+        link: /lectures/25-final-project-grab-bag
       - text: Particle Systems
-        outbound: https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM
+        link: /lectures/25-final-project-grab-bag
 
 
 
@@ -254,11 +260,7 @@
       - text: Interpolation and Splines
         link: /lectures/22-interpolation
       - text: Collision Detection
-        outbound: https://drive.google.com/open?id=161wuu9Nu_dp425D9f3v-QfF6Eqcv6cBlKwg3dQQs7Mk
-      - text: C++ 1
-        link: /lectures/14-cpp-1
-      - text: C++ 2
-        link: /lectures/23-cpp-2
+        link: /lectures/25-final-project-grab-bag
 
 
   - name: Wednesday 3/14
@@ -266,11 +268,16 @@
       - text: Clipping, Culling, & Hidden Surface Removal
         link: /lectures/24-clipping-culling
       - text: Midterm Review
+      - text: C++ 1
+        link: /lectures/14-cpp-1
+      - text: C++ 2
+        link: /lectures/23-cpp-2
 
 
   - name: Friday 3/16
     lecture:
       - text: Midterm 2
+
 
 
 ###############################################################################

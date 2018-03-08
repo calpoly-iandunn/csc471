@@ -5,7 +5,28 @@ title: "Lecture 25: Final Project Grab-Bag"
 auto-title: true
 ---
 
-<a href="https://drive.google.com/open?id=1Qkcfy328nOsn2LFyM0ba2NaI1Ri0lCPSIAymPs29xL4" class="btn btn-info">Slide Deck</a>
+<a href="https://drive.google.com/open?id=1Qkcfy328nOsn2LFyM0ba2NaI1Ri0lCPSIAymPs29xL4" class="btn btn-info">Skinned Meshes, Terrain, Skyboxes</a>
+
+<a href="https://drive.google.com/open?id=1A2HqB7SmpfqNt_z6va2FjTpPHodlzSrGMo21UrimnRo" class="btn btn-info">Shadow Mapping</a>
+
+<a href="https://drive.google.com/open?id=1xurgjYOEMrvzFKmP3JzL_4j5J__AFfr3pk4elCdepD8" class="btn btn-info">Deferred Shading</a>
+
+<a href="https://drive.google.com/open?id=1iC4yEGBnj856JGb50ccxVOQS7b_D9q2BAVPmaEEK0i0" class="btn btn-info">Ambient Occlusion</a>
+
+<a href="https://drive.google.com/open?id=12ufwW0S-mLxtesVS_TgDHZrDsKuWzzvaxTBZ97C14SE" class="btn btn-info">Physically-Based Rendering</a>
+
+<a href="https://drive.google.com/open?id=1uZ9InL7XoBo0FJo2aqRqDC1T-nS69lgxaFU3FX4ZRMM" class="btn btn-info">Particle Systems</a>
+
+<a href="https://drive.google.com/open?id=161wuu9Nu_dp425D9f3v-QfF6Eqcv6cBlKwg3dQQs7Mk" class="btn btn-info">Collision Detection</a>
+
+
+
+
+
+
+
+
+
 
 
 
