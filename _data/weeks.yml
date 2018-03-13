@@ -236,15 +236,13 @@
         link: /lectures/25-final-project-grab-bag
       - text: Deferred Shading
         link: /lectures/25-final-project-grab-bag
-      - text: Ambient Occlusion
-        link: /lectures/25-final-project-grab-bag
 
 
   - name: Friday 3/9
     lecture:
-      - text: Physically-Based Rendering
+      - text: Deferred Shading
         link: /lectures/25-final-project-grab-bag
-      - text: Particle Systems
+      - text: Ambient Occlusion
         link: /lectures/25-final-project-grab-bag
 
 
@@ -257,6 +255,10 @@
 
   - name: Monday 3/12
     lecture:
+      - text: Particle Systems
+        link: /lectures/25-final-project-grab-bag
+      - text: Physically-Based Rendering
+        link: /lectures/25-final-project-grab-bag
       - text: Interpolation and Splines
         link: /lectures/22-interpolation
       - text: Collision Detection
