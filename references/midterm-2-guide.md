@@ -5,27 +5,55 @@ title: "Midterm 2 Guide"
 auto-title: true
 ---
 
+### Past Exams
 
+* [Fall 2017](midterm2_f17.pdf)
+* [Winter 2017 (Longer Take-Home Version)](midterm2_HW17.pdf)
+* [Winter 2016 (Longer Take-Home Version)](midterm2_HW16.pdf)
+* [Winter 2014](midterm2_W14.pdf)
+
+### Overview
 
 In general, the second midterm will cover the following topics:
 
 1. The graphic pipeline
 2. Model transforms
 3. Lighting
-4. Viewing - including all the viewing transforms and projection models (orthographic and perspective)
-  and a general understanding of pitch & yaw camera and strafe and zoom controls
-5. Clipping and depth buffer algorithms
-6. Geometric relationships, vectors, cross products, plane equations and normal computations
+4. Viewing
+  - viewing transforms
+  - projection transforms (orthographic and perspective)
+  - pitch & yaw camera, and strafe and zoom controls
+5. The depth buffer and its use
+6. Geometric relationships, vectors, cross products, and normal computations
 7. Texture mapping
 
 You will be able to bring one single or double sided sheet of notes into the exam.
 The following examples should help guide your studies, but actual question format and style will vary.
 
 
-
 ## Sample questions or thought exercises:
 
-### Illumination (21 pts)
+### Viewing
+
+- Know the construction of the camera space basis vectors (u, v, w) used to
+  build a lookat matrix.
+
+- Know in general what we are trying to accomplish with the viewing transforms –
+  what are the different coordinate frames, why are they useful, why can’t we only
+  use a matrix to accomplish perspective, What is the difference between
+  orthographic and perspective viewing?
+
+- Given an eye position, a look at point and up vector, compute the camera coordinate frame.
+
+  ![midterm-2-figure-2](midterm-2-figure-2.png)
+
+- If the viewing plane was at distance dv from the camera/eye - what is one way to
+  solve for the height of a cylinder at distance d (see picture) projected onto the
+  viewing plane using perspective? What would the height be for an orthographic
+  projection?
+
+
+### Illumination
 
 Given a light with the following $$ {r, g, b} $$ ambient, diffuse and specular terms:
 
@@ -75,26 +103,8 @@ Understand the difference between per pixel lighting and per vertex lighting
 - Why is texture filtering a problem when texture mapping?
 
 
-### Viewing
+### Depth Buffer
 
-- Know in general what we are trying to accomplish with the viewing transforms –
-  what are the different coordinate frames, why are they useful, why can’t we only
-  use a matrix to accomplish perspective, What is the difference between
-  orthographic and perspective viewing?
-
-- Given an eye position, a look at point and up vector, compute the camera coordinate frame.
-
-  ![midterm-2-figure-2](midterm-2-figure-2.png)
-
-- If the viewing plane was at distance dv from the camera/eye - what is one way to
-  solve for the height of a cylinder at distance d (see picture) projected onto the
-  viewing plane using perspective? What would the height be for an orthographic
-  projection?
-
-
-### Clipping & Depth Buffer
-
-- Understand the Cohen and Sutherland clipping algorithm (with specifics given)
 - Understand the z-buffer algorithm.
 
 
@@ -126,7 +136,7 @@ Be sure you know what goes into the pipeline and what comes out?
   What is each’s distance to the ground plane SHOW YOUR WORK MATHEMATICALLY!
 
 
-### Modeling transforms and OpenGL/glm (18 pts)
+### Modeling transforms and OpenGL/glm
 
 (questions similar to midterm 1)
 
