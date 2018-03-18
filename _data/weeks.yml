@@ -255,25 +255,17 @@
 
   - name: Monday 3/12
     lecture:
-      - text: Particle Systems
-        link: /lectures/25-final-project-grab-bag
-      - text: Physically-Based Rendering
-        link: /lectures/25-final-project-grab-bag
-      - text: Interpolation and Splines
-        link: /lectures/22-interpolation
-      - text: Collision Detection
+      - text: Ambient Occlusion
         link: /lectures/25-final-project-grab-bag
 
 
   - name: Wednesday 3/14
     lecture:
+      - text: Midterm Review
+      - text: Particle Systems
+        link: /lectures/25-final-project-grab-bag
       - text: Clipping, Culling, & Hidden Surface Removal
         link: /lectures/24-clipping-culling
-      - text: Midterm Review
-      - text: C++ 1
-        link: /lectures/14-cpp-1
-      - text: C++ 2
-        link: /lectures/23-cpp-2
 
 
   - name: Friday 3/16
