@@ -8,8 +8,9 @@ auto-title: true
 Note that many figures from this presentation come from
 [Paul Bourke's excellent article on the same topic](http://paulbourke.net/miscellaneous/interpolation/)
 and it would be a good idea to give that a read as well.
+Another good reference to read: [http://www.paulinternet.nl/?page=bicubic](http://www.paulinternet.nl/?page=bicubic)
 
-There is a mathematical basis for interpolation that is very involved.
+There is a mathematical basis for interpolation that is rather involved.
 We're going to mostly ignore it here and just discuss practical applications and equations to use.
 
 

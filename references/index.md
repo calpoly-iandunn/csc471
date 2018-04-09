@@ -24,6 +24,7 @@ auto-title: true
 - [Debugging OpenGL Applications](debugging-opengl)
 - [Minimal OpenGL Example](minimal-opengl)
 - [Camera Controls](camera-controls)
+- [Asset Links - places to find models and textures](assets)
 
 
 ## Exams
@@ -35,3 +36,6 @@ auto-title: true
 ## External References
 
 - [Useful link about transforming coordinate space (world to pixel)](img_gortler.pdf)
+- Procedural Generation
+  - [Terrain from Noise - redblobgames](https://www.redblobgames.com/maps/terrain-from-noise/)
+  - [C++ OpenSimplex Noise implementation](https://gist.github.com/tombsar/716134ec71d1b8c1b530)

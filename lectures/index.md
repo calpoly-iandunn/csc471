@@ -2,9 +2,9 @@
 layout: page
 active: lectures
 title: "Lectures"
+auto-title: true
 ---
 
-<h1>{{ page.title }}</h1>
 
 - [0 - Introduction](00-introduction)
 - [1 - The Graphics Pipeline](01-graphics-pipeline)
@@ -21,7 +21,6 @@ title: "Lectures"
 - [11 - OpenGL Pipeline 2](11-opengl-pipeline-2)
 - [12 - Geometric Transformations](12-geometric-transforms)
 - [13 - Hierarchical Transformations](13-hierarchical-modeling)
-- [14 - C++ 1](14-cpp-1)
 - [15 - Lighting 1: Color and Vision](15-lighting-1)
 - [16 - Lighting 2: Reflectance Modeling](16-lighting-2)
 - [17 - Lighting 3: Details and Wrapup](17-lighting-3)
@@ -30,6 +29,12 @@ title: "Lectures"
 - [20 - Framebuffers](20-framebuffers)
 - [21 - Texture Filtering](21-texture-filtering)
 - [22 - Interpolation](22-interpolation)
-- [23 - C++ 2](23-cpp-2)
 - [24 - Clipping, Culling, and Hidden Surface Removal](24-clipping-culling)
 - [25 - Final Project Grab Bag](25-final-project-grab-bag)
+
+
+## Planned
+
+- [14 - C++ 1](14-cpp-1)
+- [23 - C++ 2](23-cpp-2)
+- [?? - Homogenous Divide](nn-homogenous-divide)
