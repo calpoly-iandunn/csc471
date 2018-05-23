@@ -43,7 +43,7 @@ $$ 0 \leq \beta \leq 1 $$
 
 $$ 0 \leq \gamma \leq 1 $$
 
-What does $$ \alpha = 0 $$ mean? Any point opposite the vertex $$ a $$, or rather along the line .
+What does $$ \alpha = 0 $$ mean? Any point opposite the vertex $$ a $$, or rather along the line from $$ b $$ to $$ c $$.
 
 What about $$ \alpha, \beta = 0 $$? In this case we know $$ \gamma $$ must be $$ 1 $$, this is the $$ c $$ vertex.
 
